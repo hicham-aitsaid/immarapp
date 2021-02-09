@@ -1,4 +1,4 @@
-package com.example.appusage;
+package com.example.ImmarAppUsage;
 
 import org.junit.Test;
 

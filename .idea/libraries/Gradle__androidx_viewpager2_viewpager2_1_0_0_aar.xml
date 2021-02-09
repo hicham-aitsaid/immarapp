@@ -1,11 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.viewpager2:viewpager2:1.0.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/viewpager2-1.0.0.aar/306ed3e108b18e8415cc681c260d9f4e/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/viewpager2-1.0.0.aar/cf1f2c8c176da7b142eba99ec5765747/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/viewpager2-1.0.0.aar/306ed3e108b18e8415cc681c260d9f4e/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/viewpager2-1.0.0.aar/306ed3e108b18e8415cc681c260d9f4e/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/viewpager2-1.0.0.aar/cf1f2c8c176da7b142eba99ec5765747/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/viewpager2-1.0.0.aar/cf1f2c8c176da7b142eba99ec5765747/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/viewpager2-1.0.0.aar/cf1f2c8c176da7b142eba99ec5765747/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
