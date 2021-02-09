@@ -1,0 +1,208 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:1-30:12
+MERGED from [:appusagemonitor] C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\appusagemonitor\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\material-1.1.0.aar\793ea8d8b8da11007174712da63e3629\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\36a2cf467801eb00a879315d3d79b33c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\82efaa30c347fbba332c3f50b3af4742\AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\eebe7bb33e32549af440eecaaa0335a2\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\ab0158e8bfcfe5795719f5f375bdd312\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\d85e58a23d20c0810ba6e01b37aa0d0b\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\275bf59a31329ff187df33503ebd67a0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\82c03190204254ad5de7c9e463c27564\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0.aar\2849cbe1d6156721000459c6c1baf132\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\transition-1.2.0.aar\73d7ba16e2b8e2f0a8f27d382578d487\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\cdd4490cb0a0a5b82e65c548e49d0919\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\aaea283ccd8714240a99a83770254b8c\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0.aar\306ed3e108b18e8415cc681c260d9f4e\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0-rc01] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\exifinterface-1.0.0-rc01.aar\508d6c647227fd2a15bf53b84c9bd831\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\217f7fa3eae3aa536f9d618cfc1ec481\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\75c11a806de27144076280797fccbcd6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0.aar\322f609c38c6621c70ded10338f71f91\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\3055807a03c95a3c2dc7c414204d61ca\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\e8159a04e460929f7e169c98cde7b3e2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\4ef3f63fae8ef24acaf2b8593a0d0e92\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\82ac8c46d2bbdb0c987638f5aee18c2c\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\e871e61a0e875cf2bc3eeae0a0ec32f5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\91b3251020b33b8d10e8f43a00e9dcac\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\9d7b38d355267392429826cf57443182\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\9a373a95408bd17c7e97de405a6dd6c7\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\6ffd96e8975986eac9dde4aa7ba58043\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\e81d387bd778ae30b72dd0a38cac1120\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\e8cb76bc210900dfe8e66c9cea17ba19\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\872ea8e550e34f47034ebd7ce63adb3a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\b85eb901c004d10b78309041e9c51753\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:4:5-35
+		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.PACKAGE_USAGE_STATS
+ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:6:5-8:47
+	tools:ignore
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:8:9-44
+	android:name
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:7:9-62
+application
+ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:10:5-28:19
+MERGED from [:appusagemonitor] C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\appusagemonitor\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-15:19
+MERGED from [:appusagemonitor] C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\appusagemonitor\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\material-1.1.0.aar\793ea8d8b8da11007174712da63e3629\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\material-1.1.0.aar\793ea8d8b8da11007174712da63e3629\AndroidManifest.xml:22:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\82efaa30c347fbba332c3f50b3af4742\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\82efaa30c347fbba332c3f50b3af4742\AndroidManifest.xml:7:5-12:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\eebe7bb33e32549af440eecaaa0335a2\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\eebe7bb33e32549af440eecaaa0335a2\AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\9a373a95408bd17c7e97de405a6dd6c7\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\9a373a95408bd17c7e97de405a6dd6c7\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\6ffd96e8975986eac9dde4aa7ba58043\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\6ffd96e8975986eac9dde4aa7ba58043\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\b85eb901c004d10b78309041e9c51753\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\b85eb901c004d10b78309041e9c51753\AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\9a373a95408bd17c7e97de405a6dd6c7\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:13:9-41
+	tools:ignore
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:17:9-74
+	android:roundIcon
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:16:9-40
+activity#com.example.appusage.activity.MainActivity
+ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:18:9-24:20
+	android:name
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:18:19-56
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.example.appusage.activity.DetailActivity
+ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:25:9-27:52
+	android:screenOrientation
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:27:13-49
+	android:name
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:26:13-52
+uses-sdk
+INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
+MERGED from [:appusagemonitor] C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\appusagemonitor\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-7:41
+MERGED from [:appusagemonitor] C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\appusagemonitor\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\material-1.1.0.aar\793ea8d8b8da11007174712da63e3629\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\material-1.1.0.aar\793ea8d8b8da11007174712da63e3629\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\36a2cf467801eb00a879315d3d79b33c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\36a2cf467801eb00a879315d3d79b33c\AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\82efaa30c347fbba332c3f50b3af4742\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\82efaa30c347fbba332c3f50b3af4742\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\eebe7bb33e32549af440eecaaa0335a2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\eebe7bb33e32549af440eecaaa0335a2\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\ab0158e8bfcfe5795719f5f375bdd312\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\ab0158e8bfcfe5795719f5f375bdd312\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\d85e58a23d20c0810ba6e01b37aa0d0b\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\d85e58a23d20c0810ba6e01b37aa0d0b\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\275bf59a31329ff187df33503ebd67a0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\275bf59a31329ff187df33503ebd67a0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\82c03190204254ad5de7c9e463c27564\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\82c03190204254ad5de7c9e463c27564\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0.aar\2849cbe1d6156721000459c6c1baf132\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0.aar\2849cbe1d6156721000459c6c1baf132\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\transition-1.2.0.aar\73d7ba16e2b8e2f0a8f27d382578d487\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\transition-1.2.0.aar\73d7ba16e2b8e2f0a8f27d382578d487\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\cdd4490cb0a0a5b82e65c548e49d0919\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\cdd4490cb0a0a5b82e65c548e49d0919\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\aaea283ccd8714240a99a83770254b8c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\aaea283ccd8714240a99a83770254b8c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0.aar\306ed3e108b18e8415cc681c260d9f4e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0.aar\306ed3e108b18e8415cc681c260d9f4e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0-rc01] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\exifinterface-1.0.0-rc01.aar\508d6c647227fd2a15bf53b84c9bd831\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0-rc01] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\exifinterface-1.0.0-rc01.aar\508d6c647227fd2a15bf53b84c9bd831\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\217f7fa3eae3aa536f9d618cfc1ec481\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\217f7fa3eae3aa536f9d618cfc1ec481\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\75c11a806de27144076280797fccbcd6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\75c11a806de27144076280797fccbcd6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0.aar\322f609c38c6621c70ded10338f71f91\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0.aar\322f609c38c6621c70ded10338f71f91\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\3055807a03c95a3c2dc7c414204d61ca\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\3055807a03c95a3c2dc7c414204d61ca\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\e8159a04e460929f7e169c98cde7b3e2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\e8159a04e460929f7e169c98cde7b3e2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\4ef3f63fae8ef24acaf2b8593a0d0e92\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\4ef3f63fae8ef24acaf2b8593a0d0e92\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\82ac8c46d2bbdb0c987638f5aee18c2c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\82ac8c46d2bbdb0c987638f5aee18c2c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\e871e61a0e875cf2bc3eeae0a0ec32f5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\e871e61a0e875cf2bc3eeae0a0ec32f5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\91b3251020b33b8d10e8f43a00e9dcac\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\91b3251020b33b8d10e8f43a00e9dcac\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\9d7b38d355267392429826cf57443182\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\9d7b38d355267392429826cf57443182\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\9a373a95408bd17c7e97de405a6dd6c7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\9a373a95408bd17c7e97de405a6dd6c7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\6ffd96e8975986eac9dde4aa7ba58043\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\6ffd96e8975986eac9dde4aa7ba58043\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\e81d387bd778ae30b72dd0a38cac1120\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\e81d387bd778ae30b72dd0a38cac1120\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\e8cb76bc210900dfe8e66c9cea17ba19\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\e8cb76bc210900dfe8e66c9cea17ba19\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\872ea8e550e34f47034ebd7ce63adb3a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\872ea8e550e34f47034ebd7ce63adb3a\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\b85eb901c004d10b78309041e9c51753\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\b85eb901c004d10b78309041e9c51753\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [:appusagemonitor] C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\appusagemonitor\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from [:appusagemonitor] C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\appusagemonitor\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:9:22-72
+provider#bot.box.appusage.provider.AppUsageProvider
+ADDED from [:appusagemonitor] C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\appusagemonitor\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:9-14:71
+	android:authorities
+		ADDED from [:appusagemonitor] C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\appusagemonitor\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:13-68
+	android:name
+		ADDED from [:appusagemonitor] C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\appusagemonitor\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:13-70
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\82efaa30c347fbba332c3f50b3af4742\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\82efaa30c347fbba332c3f50b3af4742\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\82efaa30c347fbba332c3f50b3af4742\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\82efaa30c347fbba332c3f50b3af4742\AndroidManifest.xml:9:13-64
