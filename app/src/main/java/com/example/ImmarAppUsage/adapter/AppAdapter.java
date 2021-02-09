@@ -1,4 +1,4 @@
-package com.example.appusage.adapter;
+package com.example.ImmarAppUsage.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -15,8 +15,8 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
-import com.example.appusage.R;
-import com.example.appusage.activity.DetailActivity;
+import com.example.ImmarAppUsage.R;
+import com.example.ImmarAppUsage.activity.DetailActivity;
 
 import java.lang.ref.WeakReference;
 import java.text.SimpleDateFormat;

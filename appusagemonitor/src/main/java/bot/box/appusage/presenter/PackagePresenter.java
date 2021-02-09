@@ -47,6 +47,7 @@ public class PackagePresenter implements PackageContracts.Presenter {
                         for (AppData data : usageData) {
                             if (data.mPackageName.equals(mPackageName)) {
                                 mView.getUsageForPackage(data, duration);
+                                /*System.out.println("TEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEST" + mView.getUsageForPackage(data, duration));*/
                                 mView.hideProgress();
                                 break;
                             }

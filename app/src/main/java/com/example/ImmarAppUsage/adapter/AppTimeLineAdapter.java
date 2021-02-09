@@ -1,4 +1,4 @@
-package com.example.appusage.adapter;
+package com.example.ImmarAppUsage.adapter;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.appusage.R;
+import com.example.ImmarAppUsage.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
