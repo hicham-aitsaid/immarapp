@@ -39,7 +39,7 @@ INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main
 INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:1-30:12
 INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:4:5-35
+		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:4:5-40
 		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -92,7 +92,7 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\thinkpad\.grad
 		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
 		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:16:9-40
-activity#com.example.appusage.activity.MainActivity
+activity#com.example.ImmarAppUsage.activity.MainActivity
 ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:18:9-24:20
 	android:name
 		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:18:19-56
@@ -106,7 +106,7 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
 		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:22:27-74
-activity#com.example.appusage.activity.DetailActivity
+activity#com.example.ImmarAppUsage.activity.DetailActivity
 ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:25:9-27:52
 	android:screenOrientation
 		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:27:13-49

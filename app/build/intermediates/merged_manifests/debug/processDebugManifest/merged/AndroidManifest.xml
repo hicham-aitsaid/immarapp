@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.appusage"
+    package="com.example.ImmarAppUsage"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="29" />
+        android:targetSdkVersion="26" />
 
     <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -21,7 +21,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.appusage.activity.MainActivity" >
+        <activity android:name="com.example.ImmarAppUsage.activity.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,15 +29,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.appusage.activity.DetailActivity"
+            android:name="com.example.ImmarAppUsage.activity.DetailActivity"
             android:screenOrientation="portrait" />
 
         <provider
             android:name="bot.box.appusage.provider.AppUsageProvider"
-            android:authorities="com.example.appusage.AppUsageProvider" />
+            android:authorities="com.example.ImmarAppUsage.AppUsageProvider" />
         <provider
             android:name="com.squareup.picasso.PicassoProvider"
-            android:authorities="com.example.appusage.com.squareup.picasso"
+            android:authorities="com.example.ImmarAppUsage.com.squareup.picasso"
             android:exported="false" />
     </application>
 

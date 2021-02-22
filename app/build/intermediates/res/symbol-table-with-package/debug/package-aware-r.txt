@@ -1,4 +1,4 @@
-com.example.appusage
+com.example.ImmarAppUsage
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -695,6 +695,8 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color blanc
+color bleu
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -757,6 +759,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gris
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color material_blue_grey_800
@@ -1272,6 +1275,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable back_spinner
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1300,6 +1304,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable input
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1322,6 +1327,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable schedule
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1620,7 +1626,6 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id tv_UsageStatus
-id tv_totalUsage
 id unchecked
 id uniform
 id unlabeled
@@ -1849,6 +1854,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
+string today
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

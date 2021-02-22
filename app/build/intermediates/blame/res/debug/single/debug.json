@@ -764,6 +764,10 @@
         "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0.aar\\36a2cf467801eb00a879315d3d79b33c\\res\\layout\\select_dialog_item_material.xml"
     },
     {
+        "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable_schedule.png.flat",
+        "source": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\src\\main\\res\\drawable\\schedule.png"
+    },
+    {
         "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
         "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0.aar\\36a2cf467801eb00a879315d3d79b33c\\res\\layout\\abc_tooltip.xml"
     },
@@ -1456,6 +1460,10 @@
         "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0.aar\\36a2cf467801eb00a879315d3d79b33c\\res\\layout-v26\\abc_screen_toolbar.xml"
     },
     {
+        "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back_spinner.xml.flat",
+        "source": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\src\\main\\res\\drawable\\back_spinner.xml"
+    },
+    {
         "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_subheader.xml.flat",
         "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\material-1.1.0.aar\\793ea8d8b8da11007174712da63e3629\\res\\layout\\design_navigation_item_subheader.xml"
     },
@@ -1702,6 +1710,10 @@
     {
         "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_design_ic_visibility_off.png.flat",
         "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\material-1.1.0.aar\\793ea8d8b8da11007174712da63e3629\\res\\drawable-xxhdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable_input.xml.flat",
+        "source": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\src\\main\\res\\drawable\\input.xml"
     },
     {
         "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
