@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -12,12 +10,11 @@
     android:focusable="true"
     app:cardElevation="2dp">
 
-
     <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@drawable/input"
         android:id="@+id/parent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?selectableItemBackground"
         android:clickable="true"
         android:focusable="true"
         android:padding="16dp">
@@ -32,6 +29,7 @@
             android:transitionName="profile" />
 
         <TextView
+            android:textColor="@color/gris"
             android:id="@+id/app_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -44,6 +42,7 @@
             android:textSize="16sp" />
 
         <TextView
+            android:textColor="@color/gris"
             android:id="@+id/app_usage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -52,12 +51,22 @@
             android:layout_marginEnd="8dp"
             android:textSize="11sp" />
 
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/app_name"
+            android:layout_alignStart="@+id/app_name"
+            android:src="@drawable/schedule"
+            ></ImageView>
+
         <TextView
+            android:layout_marginLeft="10dp"
             android:id="@+id/app_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/app_name"
-            android:layout_alignStart="@+id/app_name"
+            android:layout_toEndOf="@id/image"
             android:textSize="12sp" />
 
         <TextView

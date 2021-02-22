@@ -51,7 +51,7 @@ public class DetailActivity extends AppCompatActivity {
             public void getUsageForPackage(AppData appData, int duration) {
                 ((TextView) findViewById(R.id.name)).setText(appData.mName);
                 ((TextView) findViewById(R.id.total_times_launched)).setText("Lancé " + appData.mCount + " " + "fois");
-                ((TextView) findViewById(R.id.data_used)).setText(UsageUtils.humanReadableByteCount(appData.mWifi + appData.mMobile) + " Consommé");
+                ((TextView) findViewById(R.id.data_used)).setText(UsageUtils.humanReadableByteCount(appData.mMobile) + " Consommé");
                 ((TextView) findViewById(R.id.last_launched)).setText(String.format(Locale.getDefault(),
                         "%s", "Derniere fois lancé " +
                                 new SimpleDateFormat("yyyy.MM.dd HH:mm:ss", Locale.getDefault()).format(new Date(appData.mEventTime))));
