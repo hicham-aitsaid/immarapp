@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/424aeda1fcc1b4cb80c14bc4c1ea7612/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/424aeda1fcc1b4cb80c14bc4c1ea7612/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/424aeda1fcc1b4cb80c14bc4c1ea7612/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/424aeda1fcc1b4cb80c14bc4c1ea7612/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

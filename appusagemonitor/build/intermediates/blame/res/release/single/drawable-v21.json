@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/61fb04d1f7687070d42761853724fe15/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/res/merged/release/drawable-v21/abc_list_divider_material.xml",
+        "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/61fb04d1f7687070d42761853724fe15/res/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/61fb04d1f7687070d42761853724fe15/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/424aeda1fcc1b4cb80c14bc4c1ea7612/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/61fb04d1f7687070d42761853724fe15/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/res/merged/release/drawable-v21/abc_dialog_material_background.xml",
+        "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/61fb04d1f7687070d42761853724fe15/res/drawable-v21/abc_dialog_material_background.xml"
+    }
+]

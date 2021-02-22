@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/61fb04d1f7687070d42761853724fe15/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/61fb04d1f7687070d42761853724fe15/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/61fb04d1f7687070d42761853724fe15/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/61fb04d1f7687070d42761853724fe15/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
+        "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/61fb04d1f7687070d42761853724fe15/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/61fb04d1f7687070d42761853724fe15/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/res/merged/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/61fb04d1f7687070d42761853724fe15/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/61fb04d1f7687070d42761853724fe15/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/61fb04d1f7687070d42761853724fe15/res/color-v23/abc_tint_seek_thumb.xml"
+    }
+]
