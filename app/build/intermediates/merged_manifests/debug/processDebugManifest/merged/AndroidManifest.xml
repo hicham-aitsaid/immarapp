@@ -10,6 +10,8 @@
 
     <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -21,6 +23,20 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <receiver
+            android:name="com.example.ImmarAppUsage.Restarter"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="restartservice" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.example.ImmarAppUsage.MyService"
+            android:enabled="true"
+            android:exported="true" />
+
         <activity android:name="com.example.ImmarAppUsage.activity.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,6 +55,21 @@
             android:name="com.squareup.picasso.PicassoProvider"
             android:authorities="com.example.ImmarAppUsage.com.squareup.picasso"
             android:exported="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.ImmarAppUsage.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

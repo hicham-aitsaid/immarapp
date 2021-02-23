@@ -1,208 +1,318 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:1-30:12
-MERGED from [:appusagemonitor] C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\appusagemonitor\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-17:12
-MERGED from [com.google.android.material:material:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\material-1.1.0.aar\793ea8d8b8da11007174712da63e3629\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\36a2cf467801eb00a879315d3d79b33c\AndroidManifest.xml:17:1-24:12
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\82efaa30c347fbba332c3f50b3af4742\AndroidManifest.xml:2:1-14:12
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\eebe7bb33e32549af440eecaaa0335a2\AndroidManifest.xml:2:1-12:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\ab0158e8bfcfe5795719f5f375bdd312\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\d85e58a23d20c0810ba6e01b37aa0d0b\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\275bf59a31329ff187df33503ebd67a0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\82c03190204254ad5de7c9e463c27564\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0.aar\2849cbe1d6156721000459c6c1baf132\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\transition-1.2.0.aar\73d7ba16e2b8e2f0a8f27d382578d487\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\cdd4490cb0a0a5b82e65c548e49d0919\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\aaea283ccd8714240a99a83770254b8c\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0.aar\306ed3e108b18e8415cc681c260d9f4e\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.exifinterface:exifinterface:1.0.0-rc01] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\exifinterface-1.0.0-rc01.aar\508d6c647227fd2a15bf53b84c9bd831\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\217f7fa3eae3aa536f9d618cfc1ec481\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\75c11a806de27144076280797fccbcd6\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0.aar\322f609c38c6621c70ded10338f71f91\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\3055807a03c95a3c2dc7c414204d61ca\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\e8159a04e460929f7e169c98cde7b3e2\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\4ef3f63fae8ef24acaf2b8593a0d0e92\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\82ac8c46d2bbdb0c987638f5aee18c2c\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\e871e61a0e875cf2bc3eeae0a0ec32f5\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\91b3251020b33b8d10e8f43a00e9dcac\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\9d7b38d355267392429826cf57443182\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\9a373a95408bd17c7e97de405a6dd6c7\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\6ffd96e8975986eac9dde4aa7ba58043\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\e81d387bd778ae30b72dd0a38cac1120\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\e8cb76bc210900dfe8e66c9cea17ba19\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\872ea8e550e34f47034ebd7ce63adb3a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\b85eb901c004d10b78309041e9c51753\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-46:12
+MERGED from [:appusagemonitor] /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/material-1.1.0.aar/89892746a69c49712e7745e517c3f753/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/49d26813593e45fab56cf3f7bcc32f11/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-picasso-2.71828.aar/1a5f4a6acb8dd5719444a7e0c6c67f92/AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/03f11e538ff230dfa03f9dc3c2942222/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-firebase-database-16.0.4.aar/a5103cd117950bcfaa982723f5d9a435/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/b63b482f5787ef65560a327ea0e10912/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/c41a810a2663a7f3bebe4bc9d2502d47/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/40e520cd3e9d883a83f81d28d3fdd7ea/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.0.aar/567a388bd4aab92c8c04f1c3cc324a66/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/e1f5bbf546061b8b52f6da8578f2de7b/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0-rc01.aar/a345fd815a9596a788d81620dd6d9633/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/c53ff0249942d26de4afcbf26ad22a9e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/73045fc7c80d67b18097c934b45a3070/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/c8d88a567b9c5130077b84150067fd50/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/df02f4046d19fee91a10c1a3577a2f0e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/c2aa61f2338b52cffa1b5129c0cba723/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/transition-1.2.0.aar/a469470e206d2e4aed84f928043143f3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/b8aa6a49978abdaef4839c44ae726c72/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/f7da895c31968913a748820cfbf808c0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/viewpager2-1.0.0.aar/44cd8c7bc637bf119035f7d07beef9e5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0-rc01] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/exifinterface-1.0.0-rc01.aar/daf698c8c170d28a027164705bf6a006/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/999ac81fb16b64dea158aad3b9d5ec09/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/125e5baeb2e4775ca852c8b14c583e43/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/recyclerview-1.1.0.aar/70fc881e517c26bdfd97943a6ef0517a/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/9a3c85505c4043c3cc3af1df1213fbee/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.1.0.aar/e9203390795d66e8e58297a5d77d25e7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/053b29801089a8396e2cc03ddb266ca1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0-rc01] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/media-1.0.0-rc01.aar/c9a13b7dbaa4aa4397058dd7092b3f9b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/137ae1cb209b378043b592a437fb5bc3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/d9be440fa8b69e8324ab4d434ab47f3a/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/8dc5be4b4bd640779ed884fb8150ad1d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/06cc489fd5677d94aa7f1ae9af0cdf0c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/f1652f9468c283a15b97373a40c62490/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/13c8cee2261fdfc82e0f70c631eeb30f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/dbf495c0d61bc5164dd45b795ff18c82/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/d8a57885e373ed28fa6b6b1996d374f7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/49f51ad2867398a516a5d44c1247b177/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/b54e3a09ddac767046694a6701fc3190/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/08596261203c3f6453496349c3770e63/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/12b37ca17101d475d55f7af1dcbd9ea1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/f1be2470b569777dac3708b06110b892/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/01f9b04da71e86498a79de20513942ae/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/e1b03efea8d1ce04d6e8cb5b8c0e76ad/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/6f2edcf7d926c57a51f0406db7e13b6a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/968206ab998ac6385501b314f651e4ff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/9e7a4b24eb85c949cd87b1b15887fb59/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-46:12
 	package
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:4:5-40
-		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:4:5-40
+		INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:1-30:12
-		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-46:12
+		INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:1-30:12
-		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-46:12
+		INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.PACKAGE_USAGE_STATS
-ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:6:5-8:47
+ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:6:5-8:47
 	tools:ignore
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:8:9-44
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:8:9-44
 	android:name
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:7:9-62
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:7:9-62
 application
-ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:10:5-28:19
-MERGED from [:appusagemonitor] C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\appusagemonitor\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-15:19
-MERGED from [:appusagemonitor] C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\appusagemonitor\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-15:19
-MERGED from [com.google.android.material:material:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\material-1.1.0.aar\793ea8d8b8da11007174712da63e3629\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\material-1.1.0.aar\793ea8d8b8da11007174712da63e3629\AndroidManifest.xml:22:5-20
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\82efaa30c347fbba332c3f50b3af4742\AndroidManifest.xml:7:5-12:19
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\82efaa30c347fbba332c3f50b3af4742\AndroidManifest.xml:7:5-12:19
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\eebe7bb33e32549af440eecaaa0335a2\AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\eebe7bb33e32549af440eecaaa0335a2\AndroidManifest.xml:10:5-20
-MERGED from [androidx.core:core:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\9a373a95408bd17c7e97de405a6dd6c7\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\9a373a95408bd17c7e97de405a6dd6c7\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\6ffd96e8975986eac9dde4aa7ba58043\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\6ffd96e8975986eac9dde4aa7ba58043\AndroidManifest.xml:24:5-25:19
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\b85eb901c004d10b78309041e9c51753\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\b85eb901c004d10b78309041e9c51753\AndroidManifest.xml:9:5-20
+ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:10:5-44:19
+MERGED from [:appusagemonitor] /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-15:19
+MERGED from [:appusagemonitor] /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.material:material:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/material-1.1.0.aar/89892746a69c49712e7745e517c3f753/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/material-1.1.0.aar/89892746a69c49712e7745e517c3f753/AndroidManifest.xml:22:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-picasso-2.71828.aar/1a5f4a6acb8dd5719444a7e0c6c67f92/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-picasso-2.71828.aar/1a5f4a6acb8dd5719444a7e0c6c67f92/AndroidManifest.xml:7:5-12:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/03f11e538ff230dfa03f9dc3c2942222/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/03f11e538ff230dfa03f9dc3c2942222/AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/b63b482f5787ef65560a327ea0e10912/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/b63b482f5787ef65560a327ea0e10912/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/c41a810a2663a7f3bebe4bc9d2502d47/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/c41a810a2663a7f3bebe4bc9d2502d47/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/40e520cd3e9d883a83f81d28d3fdd7ea/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/40e520cd3e9d883a83f81d28d3fdd7ea/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/e1f5bbf546061b8b52f6da8578f2de7b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/e1f5bbf546061b8b52f6da8578f2de7b/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/dbf495c0d61bc5164dd45b795ff18c82/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/dbf495c0d61bc5164dd45b795ff18c82/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/49f51ad2867398a516a5d44c1247b177/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/49f51ad2867398a516a5d44c1247b177/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/9e7a4b24eb85c949cd87b1b15887fb59/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/9e7a4b24eb85c949cd87b1b15887fb59/AndroidManifest.xml:9:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\9a373a95408bd17c7e97de405a6dd6c7\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/dbf495c0d61bc5164dd45b795ff18c82/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:13:9-41
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:13:9-41
 	tools:ignore
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:17:9-74
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:17:9-74
 	android:roundIcon
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:14:9-54
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:12:9-43
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:16:9-40
-activity#com.example.ImmarAppUsage.activity.MainActivity
-ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:18:9-24:20
-	android:name
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:18:19-56
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:19:13-23:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:20:17-69
-	android:name
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:20:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:22:17-77
-	android:name
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:22:27-74
-activity#com.example.ImmarAppUsage.activity.DetailActivity
-ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:25:9-27:52
-	android:screenOrientation
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:27:13-49
-	android:name
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml:26:13-52
-uses-sdk
-INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
-MERGED from [:appusagemonitor] C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\appusagemonitor\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-7:41
-MERGED from [:appusagemonitor] C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\appusagemonitor\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.material:material:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\material-1.1.0.aar\793ea8d8b8da11007174712da63e3629\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\material-1.1.0.aar\793ea8d8b8da11007174712da63e3629\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\36a2cf467801eb00a879315d3d79b33c\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\36a2cf467801eb00a879315d3d79b33c\AndroidManifest.xml:20:5-22:41
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\82efaa30c347fbba332c3f50b3af4742\AndroidManifest.xml:5:5-44
-MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\82efaa30c347fbba332c3f50b3af4742\AndroidManifest.xml:5:5-44
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\eebe7bb33e32549af440eecaaa0335a2\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\eebe7bb33e32549af440eecaaa0335a2\AndroidManifest.xml:6:5-8:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\ab0158e8bfcfe5795719f5f375bdd312\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\ab0158e8bfcfe5795719f5f375bdd312\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\d85e58a23d20c0810ba6e01b37aa0d0b\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\d85e58a23d20c0810ba6e01b37aa0d0b\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\275bf59a31329ff187df33503ebd67a0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\275bf59a31329ff187df33503ebd67a0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\82c03190204254ad5de7c9e463c27564\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\82c03190204254ad5de7c9e463c27564\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0.aar\2849cbe1d6156721000459c6c1baf132\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0.aar\2849cbe1d6156721000459c6c1baf132\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\transition-1.2.0.aar\73d7ba16e2b8e2f0a8f27d382578d487\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\transition-1.2.0.aar\73d7ba16e2b8e2f0a8f27d382578d487\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\cdd4490cb0a0a5b82e65c548e49d0919\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\cdd4490cb0a0a5b82e65c548e49d0919\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\aaea283ccd8714240a99a83770254b8c\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\aaea283ccd8714240a99a83770254b8c\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0.aar\306ed3e108b18e8415cc681c260d9f4e\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0.aar\306ed3e108b18e8415cc681c260d9f4e\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.0.0-rc01] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\exifinterface-1.0.0-rc01.aar\508d6c647227fd2a15bf53b84c9bd831\AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.0.0-rc01] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\exifinterface-1.0.0-rc01.aar\508d6c647227fd2a15bf53b84c9bd831\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\217f7fa3eae3aa536f9d618cfc1ec481\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\217f7fa3eae3aa536f9d618cfc1ec481\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\75c11a806de27144076280797fccbcd6\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\75c11a806de27144076280797fccbcd6\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0.aar\322f609c38c6621c70ded10338f71f91\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0.aar\322f609c38c6621c70ded10338f71f91\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\3055807a03c95a3c2dc7c414204d61ca\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\3055807a03c95a3c2dc7c414204d61ca\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\e8159a04e460929f7e169c98cde7b3e2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\e8159a04e460929f7e169c98cde7b3e2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\4ef3f63fae8ef24acaf2b8593a0d0e92\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\4ef3f63fae8ef24acaf2b8593a0d0e92\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\82ac8c46d2bbdb0c987638f5aee18c2c\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\82ac8c46d2bbdb0c987638f5aee18c2c\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\e871e61a0e875cf2bc3eeae0a0ec32f5\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\e871e61a0e875cf2bc3eeae0a0ec32f5\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\91b3251020b33b8d10e8f43a00e9dcac\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\91b3251020b33b8d10e8f43a00e9dcac\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\9d7b38d355267392429826cf57443182\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\9d7b38d355267392429826cf57443182\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\9a373a95408bd17c7e97de405a6dd6c7\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\9a373a95408bd17c7e97de405a6dd6c7\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\6ffd96e8975986eac9dde4aa7ba58043\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\6ffd96e8975986eac9dde4aa7ba58043\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\e81d387bd778ae30b72dd0a38cac1120\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\e81d387bd778ae30b72dd0a38cac1120\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\e8cb76bc210900dfe8e66c9cea17ba19\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\e8cb76bc210900dfe8e66c9cea17ba19\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\872ea8e550e34f47034ebd7ce63adb3a\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\872ea8e550e34f47034ebd7ce63adb3a\AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\b85eb901c004d10b78309041e9c51753\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\b85eb901c004d10b78309041e9c51753\AndroidManifest.xml:5:5-7:41
-INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
-	android:targetSdkVersion
-		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
-	android:minSdkVersion
-		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.READ_PHONE_STATE
-ADDED from [:appusagemonitor] C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\appusagemonitor\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:9:5-75
-	android:name
-		ADDED from [:appusagemonitor] C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\appusagemonitor\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:9:22-72
-provider#bot.box.appusage.provider.AppUsageProvider
-ADDED from [:appusagemonitor] C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\appusagemonitor\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:9-14:71
-	android:authorities
-		ADDED from [:appusagemonitor] C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\appusagemonitor\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:13-68
-	android:name
-		ADDED from [:appusagemonitor] C:\Users\thinkpad\AndroidStudioProjects\ImmarAppUsage\appusagemonitor\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:13-70
-provider#com.squareup.picasso.PicassoProvider
-ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\82efaa30c347fbba332c3f50b3af4742\AndroidManifest.xml:8:9-11:40
-	android:authorities
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\82efaa30c347fbba332c3f50b3af4742\AndroidManifest.xml:10:13-72
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:16:9-40
+receiver#com.example.ImmarAppUsage.Restarter
+ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:19:9-26:20
+	android:enabled
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:21:13-35
 	android:exported
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\82efaa30c347fbba332c3f50b3af4742\AndroidManifest.xml:11:13-37
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\thinkpad\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\82efaa30c347fbba332c3f50b3af4742\AndroidManifest.xml:9:13-64
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:20:13-37
+intent-filter#action:name:restartservice
+ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:23:13-25:29
+action#restartservice
+ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:24:17-57
+	android:name
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:24:25-54
+service#com.example.ImmarAppUsage.MyService
+ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:28:9-31:47
+	android:enabled
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:30:13-35
+	android:exported
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:29:13-38
+activity#com.example.ImmarAppUsage.activity.MainActivity
+ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:34:9-40:20
+	android:name
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:34:19-56
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:35:13-39:29
+action#android.intent.action.MAIN
+ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:38:27-74
+activity#com.example.ImmarAppUsage.activity.DetailActivity
+ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:41:9-43:52
+	android:screenOrientation
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:42:13-52
+uses-sdk
+INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
+MERGED from [:appusagemonitor] /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-7:41
+MERGED from [:appusagemonitor] /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/material-1.1.0.aar/89892746a69c49712e7745e517c3f753/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/material-1.1.0.aar/89892746a69c49712e7745e517c3f753/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/49d26813593e45fab56cf3f7bcc32f11/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/49d26813593e45fab56cf3f7bcc32f11/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-picasso-2.71828.aar/1a5f4a6acb8dd5719444a7e0c6c67f92/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-picasso-2.71828.aar/1a5f4a6acb8dd5719444a7e0c6c67f92/AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/03f11e538ff230dfa03f9dc3c2942222/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/03f11e538ff230dfa03f9dc3c2942222/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-firebase-database-16.0.4.aar/a5103cd117950bcfaa982723f5d9a435/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-firebase-database-16.0.4.aar/a5103cd117950bcfaa982723f5d9a435/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/b63b482f5787ef65560a327ea0e10912/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/b63b482f5787ef65560a327ea0e10912/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/c41a810a2663a7f3bebe4bc9d2502d47/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/c41a810a2663a7f3bebe4bc9d2502d47/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/40e520cd3e9d883a83f81d28d3fdd7ea/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/40e520cd3e9d883a83f81d28d3fdd7ea/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.0.aar/567a388bd4aab92c8c04f1c3cc324a66/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.0.aar/567a388bd4aab92c8c04f1c3cc324a66/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/e1f5bbf546061b8b52f6da8578f2de7b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/e1f5bbf546061b8b52f6da8578f2de7b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0-rc01.aar/a345fd815a9596a788d81620dd6d9633/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0-rc01.aar/a345fd815a9596a788d81620dd6d9633/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/c53ff0249942d26de4afcbf26ad22a9e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/c53ff0249942d26de4afcbf26ad22a9e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/73045fc7c80d67b18097c934b45a3070/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/73045fc7c80d67b18097c934b45a3070/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/c8d88a567b9c5130077b84150067fd50/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/c8d88a567b9c5130077b84150067fd50/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/df02f4046d19fee91a10c1a3577a2f0e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/df02f4046d19fee91a10c1a3577a2f0e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/c2aa61f2338b52cffa1b5129c0cba723/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/c2aa61f2338b52cffa1b5129c0cba723/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/transition-1.2.0.aar/a469470e206d2e4aed84f928043143f3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/transition-1.2.0.aar/a469470e206d2e4aed84f928043143f3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/b8aa6a49978abdaef4839c44ae726c72/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/b8aa6a49978abdaef4839c44ae726c72/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/f7da895c31968913a748820cfbf808c0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/f7da895c31968913a748820cfbf808c0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/viewpager2-1.0.0.aar/44cd8c7bc637bf119035f7d07beef9e5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/viewpager2-1.0.0.aar/44cd8c7bc637bf119035f7d07beef9e5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0-rc01] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/exifinterface-1.0.0-rc01.aar/daf698c8c170d28a027164705bf6a006/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0-rc01] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/exifinterface-1.0.0-rc01.aar/daf698c8c170d28a027164705bf6a006/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/999ac81fb16b64dea158aad3b9d5ec09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/999ac81fb16b64dea158aad3b9d5ec09/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/125e5baeb2e4775ca852c8b14c583e43/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/125e5baeb2e4775ca852c8b14c583e43/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/recyclerview-1.1.0.aar/70fc881e517c26bdfd97943a6ef0517a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/recyclerview-1.1.0.aar/70fc881e517c26bdfd97943a6ef0517a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/9a3c85505c4043c3cc3af1df1213fbee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/9a3c85505c4043c3cc3af1df1213fbee/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.1.0.aar/e9203390795d66e8e58297a5d77d25e7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.1.0.aar/e9203390795d66e8e58297a5d77d25e7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/053b29801089a8396e2cc03ddb266ca1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/053b29801089a8396e2cc03ddb266ca1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0-rc01] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/media-1.0.0-rc01.aar/c9a13b7dbaa4aa4397058dd7092b3f9b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0-rc01] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/media-1.0.0-rc01.aar/c9a13b7dbaa4aa4397058dd7092b3f9b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/137ae1cb209b378043b592a437fb5bc3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/137ae1cb209b378043b592a437fb5bc3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/d9be440fa8b69e8324ab4d434ab47f3a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/d9be440fa8b69e8324ab4d434ab47f3a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/8dc5be4b4bd640779ed884fb8150ad1d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/8dc5be4b4bd640779ed884fb8150ad1d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/06cc489fd5677d94aa7f1ae9af0cdf0c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/06cc489fd5677d94aa7f1ae9af0cdf0c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/f1652f9468c283a15b97373a40c62490/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/f1652f9468c283a15b97373a40c62490/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/13c8cee2261fdfc82e0f70c631eeb30f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/13c8cee2261fdfc82e0f70c631eeb30f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/dbf495c0d61bc5164dd45b795ff18c82/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/dbf495c0d61bc5164dd45b795ff18c82/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/d8a57885e373ed28fa6b6b1996d374f7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/d8a57885e373ed28fa6b6b1996d374f7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/49f51ad2867398a516a5d44c1247b177/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/49f51ad2867398a516a5d44c1247b177/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/b54e3a09ddac767046694a6701fc3190/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/b54e3a09ddac767046694a6701fc3190/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/08596261203c3f6453496349c3770e63/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/08596261203c3f6453496349c3770e63/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/12b37ca17101d475d55f7af1dcbd9ea1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/12b37ca17101d475d55f7af1dcbd9ea1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/f1be2470b569777dac3708b06110b892/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/f1be2470b569777dac3708b06110b892/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/01f9b04da71e86498a79de20513942ae/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/01f9b04da71e86498a79de20513942ae/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/e1b03efea8d1ce04d6e8cb5b8c0e76ad/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/e1b03efea8d1ce04d6e8cb5b8c0e76ad/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/6f2edcf7d926c57a51f0406db7e13b6a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/6f2edcf7d926c57a51f0406db7e13b6a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/968206ab998ac6385501b314f651e4ff/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/968206ab998ac6385501b314f651e4ff/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/9e7a4b24eb85c949cd87b1b15887fb59/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/9e7a4b24eb85c949cd87b1b15887fb59/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [:appusagemonitor] /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from [:appusagemonitor] /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:22-72
+provider#bot.box.appusage.provider.AppUsageProvider
+ADDED from [:appusagemonitor] /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:9-14:71
+	android:authorities
+		ADDED from [:appusagemonitor] /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:13-68
+	android:name
+		ADDED from [:appusagemonitor] /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:13-70
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-picasso-2.71828.aar/1a5f4a6acb8dd5719444a7e0c6c67f92/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-picasso-2.71828.aar/1a5f4a6acb8dd5719444a7e0c6c67f92/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-picasso-2.71828.aar/1a5f4a6acb8dd5719444a7e0c6c67f92/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-picasso-2.71828.aar/1a5f4a6acb8dd5719444a7e0c6c67f92/AndroidManifest.xml:9:13-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:16.0.4] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-firebase-database-16.0.4.aar/a5103cd117950bcfaa982723f5d9a435/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:16.0.4] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-firebase-database-16.0.4.aar/a5103cd117950bcfaa982723f5d9a435/AndroidManifest.xml:22:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-database:16.0.4] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-firebase-database-16.0.4.aar/a5103cd117950bcfaa982723f5d9a435/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-database:16.0.4] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-firebase-database-16.0.4.aar/a5103cd117950bcfaa982723f5d9a435/AndroidManifest.xml:23:22-64
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/b63b482f5787ef65560a327ea0e10912/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/b63b482f5787ef65560a327ea0e10912/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/b63b482f5787ef65560a327ea0e10912/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/b63b482f5787ef65560a327ea0e10912/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/c41a810a2663a7f3bebe4bc9d2502d47/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/c41a810a2663a7f3bebe4bc9d2502d47/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/c41a810a2663a7f3bebe4bc9d2502d47/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/c41a810a2663a7f3bebe4bc9d2502d47/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/c41a810a2663a7f3bebe4bc9d2502d47/AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/e1f5bbf546061b8b52f6da8578f2de7b/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/e1f5bbf546061b8b52f6da8578f2de7b/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/e1f5bbf546061b8b52f6da8578f2de7b/AndroidManifest.xml:24:13-58

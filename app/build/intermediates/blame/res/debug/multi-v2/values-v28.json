@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
+            "outputFile": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.1.0.aar\\36a2cf467801eb00a879315d3d79b33c\\res\\values-v28\\values-v28.xml",
+                    "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/49d26813593e45fab56cf3f7bcc32f11/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\material-1.1.0.aar\\793ea8d8b8da11007174712da63e3629\\res\\values-v28\\values-v28.xml",
+                    "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/material-1.1.0.aar/89892746a69c49712e7745e517c3f753/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

@@ -1,7 +1,10 @@
 package com.example.ImmarAppUsage.activity;
 
 import android.Manifest;
+import android.app.ActivityManager;
 import android.app.usage.UsageEvents;
+import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 
@@ -11,14 +14,22 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.os.Handler;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.Toast;
 
+import com.example.ImmarAppUsage.MyService;
 import com.example.ImmarAppUsage.R;
+import com.example.ImmarAppUsage.Restarter;
 import com.example.ImmarAppUsage.adapter.AppAdapter;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import bot.box.appusage.contract.UsageContracts;
@@ -27,33 +38,44 @@ import bot.box.appusage.handler.Monitor;
 import bot.box.appusage.model.AppData;
 import bot.box.appusage.utils.Duration;
 
+import static android.app.Service.START_STICKY;
+import static bot.box.appusage.utils.DurationRange.TODAY;
+
 public class MainActivity extends AppCompatActivity implements UsageContracts.View
         , AdapterView.OnItemSelectedListener {
 
-
-
+    Intent mServiceIntent;
+    private MyService mYourService;
     private AppAdapter mAdapter;
-    DataManager d = new DataManager();
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        /*System.out.println("TEEEEEEEEEEEEEEEEEEEEEEEEEEEEEST"+d.getUsedApps(this,9));*/
-        UsageEvents.Event event = new UsageEvents.Event();
-        System.out.println("TEEEEEEEEEEEEEEEEEEEEEEEEEEEEEST"+event.getPackageName());
+
+        // Start app in background as a service
+        startService(new Intent(MainActivity.this, MyService.class));
+
+        // Permission checking
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_PHONE_STATE)
                 != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_PHONE_STATE}, 100);
         }
     }
+
+    @Override
+    protected void onDestroy() {
+        Intent i = new Intent(this, MainActivity.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP|Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(i);
+        super.onDestroy();
+    }
+
     @Override
     protected void onResume() {
         super.onResume();
         if (Monitor.hasUsagePermission()) {
             Monitor.scan().getAppLists(this).fetchFor(Duration.TODAY);
             init();
-
         } else {
             Monitor.requestUsagePermission();
         }
