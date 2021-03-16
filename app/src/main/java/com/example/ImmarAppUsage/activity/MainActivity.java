@@ -26,6 +26,7 @@ import com.example.ImmarAppUsage.MyService;
 import com.example.ImmarAppUsage.R;
 import com.example.ImmarAppUsage.Restarter;
 import com.example.ImmarAppUsage.adapter.AppAdapter;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -47,6 +48,8 @@ public class MainActivity extends AppCompatActivity implements UsageContracts.Vi
     Intent mServiceIntent;
     private MyService mYourService;
     private AppAdapter mAdapter;
+    FirebaseAuth firebaseAuth;
+    String id;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

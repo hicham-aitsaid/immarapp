@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanc"
+    android:orientation="vertical"
+    tools:context=".activity.login">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:padding="70dp"
+        android:src="@drawable/logo"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="Connectez-vous"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp"
+        android:textStyle="bold"></TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/mail"
+
+                android:inputType="textEmailAddress"
+                android:background="@drawable/edit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/email"
+                android:padding="10dp"
+                android:hint="Email"
+                android:drawablePadding="10dp"
+                android:textColorHint="@color/gris"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/noir"
+                ></EditText>
+
+            <EditText
+                android:id="@+id/password"
+                android:inputType="textPassword"
+                android:background="@drawable/edit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/ic_baseline_https_24"
+                android:padding="10dp"
+                android:hint="Mot de passe"
+                android:drawablePadding="10dp"
+                android:textColorHint="@color/gris"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/noir"
+                ></EditText>
+
+            <Button
+                android:id="@+id/connect"
+                android:textAllCaps="false"
+                android:text="Connecter"
+                android:textSize="15sp"
+                android:textColor="@color/blanc"
+                android:fontFamily="@font/roboto"
+                android:textStyle="bold"
+                android:background="@drawable/button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginHorizontal="20dp"
+                ></Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:text="vous n'avez pas un compte ?"
+            android:textColor="@color/noir"
+            android:textSize="14sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:text="Inscreriez vous"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

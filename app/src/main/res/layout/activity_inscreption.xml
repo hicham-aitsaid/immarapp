@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blanc"
+    tools:context=".activity.Inscreption">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+
+            >
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back"></ImageView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:text="   Inscription"
+                android:textAllCaps="false"
+                android:textColor="@color/blanc"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/nom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit"
+                android:drawableLeft="@drawable/pseudo"
+                android:drawablePadding="10dp"
+                android:elevation="7dp"
+                android:fontFamily="@font/roboto"
+                android:hint="Pseudo"
+                android:inputType="textPersonName"
+                android:maxLength="10"
+                android:padding="10dp"
+                android:textColor="@color/noir"
+                android:textColorHint="@color/gris"
+                android:textSize="15dp"></EditText>
+            <EditText
+                android:id="@+id/email"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/edit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="8dp"
+                android:drawableLeft="@drawable/email"
+                android:padding="10dp"
+                android:hint="Email"
+                android:drawablePadding="10dp"
+                android:textColorHint="@color/gris"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/noir"
+                ></EditText>
+
+            <EditText
+                android:id="@+id/motpasse"
+                android:inputType="textPassword"
+                android:background="@drawable/edit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="8dp"
+                android:drawableLeft="@drawable/ic_baseline_https_24"
+                android:padding="10dp"
+                android:hint="Mot de passe"
+                android:drawablePadding="10dp"
+                android:textColorHint="@color/gris"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/noir"
+                ></EditText>
+
+            <EditText
+                android:textSize="15dp"
+                android:elevation="7dp"
+                android:id="@+id/num"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:background="@drawable/edit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="8dp"
+                android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+                android:padding="10dp"
+                android:hint="Numéro de téléphone"
+                android:drawablePadding="10dp"
+                android:textColorHint="@color/gris"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/noir"
+                ></EditText>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="20dp"
+                >
+                <TextView
+                    android:elevation="7dp"
+                    android:id="@+id/date"
+                    android:layout_marginRight="7dp"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1.2"
+                    android:text="Date de naissance"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/edit"
+                    android:textColor="@color/gris"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/calendar"
+                    android:padding="7dp"
+                    ></TextView>
+
+                <TextView
+                    android:elevation="7dp"
+                    android:id="@+id/sexe"
+                    android:text="Genre"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edit"
+                    android:textColor="@color/gris"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/sexe"
+                    android:padding="10dp"
+                    ></TextView>
+            </LinearLayout>
+
+            <TextView
+                android:elevation="7dp"
+                android:id="@+id/niveau"
+                android:gravity="center_vertical"
+                android:maxLength="10"
+                android:background="@drawable/edit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="8dp"
+                android:drawableLeft="@drawable/school"
+                android:padding="10dp"
+                android:hint="Niveau s’instruction"
+                android:drawablePadding="10dp"
+                android:textColorHint="@color/gris"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/noir"
+                android:textSize="15dp"
+
+                ></TextView>
+
+            <TextView
+                android:elevation="7dp"
+                android:id="@+id/categorie"
+                android:gravity="center_vertical"
+                android:textSize="15dp"
+                android:maxLength="10"
+                android:background="@drawable/edit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="8dp"
+                android:drawableLeft="@drawable/categorie"
+                android:padding="10dp"
+                android:hint="Catégorie socio- professionnelle"
+                android:drawablePadding="10dp"
+                android:textColorHint="@color/gris"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/noir"
+                ></TextView>
+
+            <TextView
+                android:elevation="7dp"
+                android:id="@+id/wilaya"
+                android:gravity="center_vertical"
+                android:textSize="15dp"
+                android:maxLength="10"
+                android:background="@drawable/edit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="8dp"
+                android:drawableLeft="@drawable/localisation"
+                android:padding="10dp"
+                android:hint="Wilaya"
+                android:drawablePadding="10dp"
+                android:textColorHint="@color/gris"
+                android:fontFamily="@font/roboto"
+                android:textColor="@color/noir"
+                ></TextView>
+
+            <Button
+                android:id="@+id/inscreption"
+                android:textAllCaps="false"
+                android:text="Inscrivez-vous"
+                android:textSize="15sp"
+                android:textColor="@color/blanc"
+                android:fontFamily="@font/roboto"
+                android:textStyle="bold"
+                android:background="@drawable/button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginHorizontal="20dp"
+                ></Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

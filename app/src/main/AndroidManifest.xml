@@ -15,9 +15,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning,LockedOrientationActivity">
+        <activity android:name=".activity.MainActivity"></activity>
+        <activity android:name=".activity.Inscreption" />
+        <activity android:name=".activity.Acceuil" />
 
         <receiver
-            android:name="Restarter"
+            android:name=".Restarter"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -28,10 +31,9 @@
         <service
             android:name=".MyService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
 
-
-        <activity android:name=".activity.MainActivity">
+        <activity android:name=".activity.login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -41,6 +43,10 @@
         <activity
             android:name=".activity.DetailActivity"
             android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
