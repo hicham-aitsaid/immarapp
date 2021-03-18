@@ -46,7 +46,11 @@ animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
 array array_palette
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
 array duration
+array preloaded_fonts
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -890,6 +894,8 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color blanc
+color bleu
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -963,6 +969,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gris
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color material_blue_grey_800
@@ -1038,6 +1045,7 @@ color mtrl_textinput_disabled_color
 color mtrl_textinput_filled_box_default_background_color
 color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
+color noir
 color notification_action_color_filter
 color notification_icon_bg_color
 color primary_dark_material_dark
@@ -1478,6 +1486,8 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable back
+drawable back_spinner
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1486,6 +1496,9 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button
+drawable calendar
+drawable categorie
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1512,8 +1525,12 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable edit
+drawable email
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_baseline_https_24
+drawable ic_baseline_local_phone_24
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
 drawable ic_edit_black_24dp
@@ -1527,7 +1544,9 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
-drawable ic_wave
+drawable input
+drawable localisation
+drawable logo
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1550,9 +1569,14 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pseudo
+drawable schedule
+drawable school
+drawable sexe
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font roboto
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1639,6 +1663,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id back
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -1650,6 +1675,7 @@ id buttonPanel
 id cache_measures
 id cancel_button
 id card_view
+id categorie
 id center
 id center_horizontal
 id center_vertical
@@ -1665,6 +1691,7 @@ id clip_horizontal
 id clip_vertical
 id collapseActionView
 id confirm_button
+id connect
 id container
 id content
 id contentPanel
@@ -1675,6 +1702,7 @@ id customPanel
 id cut
 id dark
 id data_used
+id date
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -1705,6 +1733,7 @@ id easeIn
 id easeInOut
 id easeOut
 id edit_query
+id email
 id end
 id enterAlways
 id enterAlwaysCollapsed
@@ -1742,7 +1771,9 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id in
 id info
+id inscreption
 id invisible
 id italic
 id item_touch_helper_previous_elevation
@@ -1762,6 +1793,7 @@ id linear
 id linear_layout
 id listMode
 id list_item
+id mail
 id masked
 id message
 id middle
@@ -1773,6 +1805,7 @@ id month_navigation_next
 id month_navigation_previous
 id month_title
 id motion_base
+id motpasse
 id mtrl_calendar_day_selector_frame
 id mtrl_calendar_days_of_week
 id mtrl_calendar_frame
@@ -1797,12 +1830,15 @@ id multiply
 id name
 id navigation_header_container
 id never
+id niveau
 id noScroll
+id nom
 id none
 id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id num
 id off
 id on
 id open
@@ -1814,6 +1850,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id password
 id password_toggle
 id path
 id pathRelative
@@ -1855,6 +1892,7 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id sexe
 id shortcut
 id showCustom
 id showHome
@@ -1930,7 +1968,6 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tv_UsageStatus
-id tv_totalUsage
 id unchecked
 id uniform
 id unlabeled
@@ -1940,6 +1977,7 @@ id useLogo
 id view_offset_helper
 id visible
 id wide
+id wilaya
 id withText
 id wrap
 id wrap_content
@@ -2004,8 +2042,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_admin
+layout activity_acceuil
 layout activity_details
+layout activity_inscreption
+layout activity_login
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2132,10 +2172,17 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string default_web_client_id
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string firebase_database_url
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string in_use
@@ -2179,8 +2226,10 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string project_id
 string search_menu_title
 string status_bar_notification_info_overflow
+string today
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

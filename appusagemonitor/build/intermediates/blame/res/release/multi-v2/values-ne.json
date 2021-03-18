@@ -4,7 +4,7 @@
             "outputFile": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/res/merged/release/values-ne/values-ne.xml",
             "map": [
                 {
-                    "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/61fb04d1f7687070d42761853724fe15/res/values-ne/values-ne.xml",
+                    "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/49d26813593e45fab56cf3f7bcc32f11/res/values-ne/values-ne.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/424aeda1fcc1b4cb80c14bc4c1ea7612/res/values-ne/values-ne.xml",
+                    "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/dbf495c0d61bc5164dd45b795ff18c82/res/values-ne/values-ne.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -36,7 +36,7 @@
             "outputFile": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ne/values-ne.xml",
             "map": [
                 {
-                    "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/61fb04d1f7687070d42761853724fe15/res/values-ne/values-ne.xml",
+                    "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/49d26813593e45fab56cf3f7bcc32f11/res/values-ne/values-ne.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -46,7 +46,7 @@
                     }
                 },
                 {
-                    "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/424aeda1fcc1b4cb80c14bc4c1ea7612/res/values-ne/values-ne.xml",
+                    "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/dbf495c0d61bc5164dd45b795ff18c82/res/values-ne/values-ne.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

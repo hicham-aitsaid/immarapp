@@ -4,7 +4,7 @@
             "outputFile": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/res/merged/release/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/61fb04d1f7687070d42761853724fe15/res/values-v22/values-v22.xml",
+                    "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/49d26813593e45fab56cf3f7bcc32f11/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
@@ -20,7 +20,7 @@
             "outputFile": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/61fb04d1f7687070d42761853724fe15/res/values-v22/values-v22.xml",
+                    "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/49d26813593e45fab56cf3f7bcc32f11/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
