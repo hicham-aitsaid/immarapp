@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Thu Mar 18 23:38:11 CET 2021
-0.baseType=DIRECTORY
-0.base=/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/build/intermediates/transforms/dexMerger/release/0
-0.path=classes.dex
-0.set=DEX
-count=1
