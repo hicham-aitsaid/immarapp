@@ -24,9 +24,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.ImmarAppUsage.activity.MainActivity" />
         <activity android:name="com.example.ImmarAppUsage.activity.Inscreption" />
         <activity android:name="com.example.ImmarAppUsage.activity.Acceuil" />
+        <activity android:name="com.example.ImmarAppUsage.activity.login" />
 
         <receiver
             android:name="com.example.ImmarAppUsage.Restarter"
@@ -42,7 +42,7 @@
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name="com.example.ImmarAppUsage.activity.login" >
+        <activity android:name="com.example.ImmarAppUsage.activity.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
