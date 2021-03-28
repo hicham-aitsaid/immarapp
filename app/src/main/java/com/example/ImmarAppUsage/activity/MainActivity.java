@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,6 +28,7 @@ import com.example.ImmarAppUsage.R;
 import com.example.ImmarAppUsage.Restarter;
 import com.example.ImmarAppUsage.adapter.AppAdapter;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -45,6 +47,9 @@ import static bot.box.appusage.utils.DurationRange.TODAY;
 public class MainActivity extends AppCompatActivity implements UsageContracts.View
         , AdapterView.OnItemSelectedListener {
 
+
+    FirebaseAuth.AuthStateListener mAuthListener;
+
     Intent mServiceIntent;
     private MyService mYourService;
     private AppAdapter mAdapter;
@@ -55,6 +60,20 @@ public class MainActivity extends AppCompatActivity implements UsageContracts.Vi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // check if user is already logged in
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        if (user != null) {
+            // User is signed in
+        } else {
+            Intent intent = new Intent(getApplicationContext(), login.class);
+            startActivity(intent);
+            finish();
+        }
+
+
+
+
+
         // Start app in background as a service
         startService(new Intent(MainActivity.this, MyService.class));
 
@@ -63,6 +82,7 @@ public class MainActivity extends AppCompatActivity implements UsageContracts.Vi
                 != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_PHONE_STATE}, 100);
         }
+
     }
 
     @Override

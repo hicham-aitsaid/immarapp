@@ -6,7 +6,11 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+
+import com.example.ImmarAppUsage.activity.login;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import java.util.List;
@@ -26,8 +30,15 @@ public class MyService extends Service {
 
     @Override
     public void onCreate() {
+
+
+
         firebaseAuth=FirebaseAuth.getInstance();
-        id=firebaseAuth.getCurrentUser().getUid();
+        FirebaseUser mFirebaseUser = firebaseAuth.getCurrentUser();
+        if(mFirebaseUser != null) {
+            id = mFirebaseUser.getUid(); //Do what you need to do with the id
+        }
+
         DataManager d = new DataManager();
         List<AppData> appsUsedToday = d.getUsedApps(this,TODAY);
         List<AppData> appsUsedYesterday = d.getUsedApps(this,YESTERDAY);
@@ -42,7 +53,7 @@ public class MyService extends Service {
                 public void run() {
                     while (true) {
                         try {
-                            Thread.sleep(60000);
+                            Thread.sleep(1000*60*60*24);
                             mHandler.post(new Runnable() {
 
                                 @Override

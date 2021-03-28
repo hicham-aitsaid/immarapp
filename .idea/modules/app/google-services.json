@@ -1,42 +1,34 @@
 {
   "project_info": {
-    "project_number": "1092776850019",
-    "firebase_url": "https://immar-63c07-default-rtdb.firebaseio.com",
-    "project_id": "immar-63c07",
-    "storage_bucket": "immar-63c07.appspot.com"
+    "project_number": "393635588742",
+    "firebase_url": "https://immarapp-96537-default-rtdb.firebaseio.com",
+    "project_id": "immarapp-96537",
+    "storage_bucket": "immarapp-96537.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1092776850019:android:e1784e3cab969155e2fe56",
+        "mobilesdk_app_id": "1:393635588742:android:8bbe5254d4f30f3289ff07",
         "android_client_info": {
           "package_name": "com.example.ImmarAppUsage"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1092776850019-uvd0adqsp605nsb9bhc0tfq5os78d9cr.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.ImmarAppUsage",
-            "certificate_hash": "4e5ab8c24cd37f33d96e86b5ee858791ec7400e5"
-          }
-        },
-        {
-          "client_id": "1092776850019-95kbp4l2t41ti4m6hi8fb4nto1f8ub23.apps.googleusercontent.com",
+          "client_id": "393635588742-4svn9k7hpmegckknl3jg50apthlfdbcm.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB2bbOCueZSDv5R6fC3yEeHQl_MduqWPOo"
+          "current_key": "AIzaSyCAZiVMUaVkRd8u73tdxts0Hxb86XNJgaM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1092776850019-95kbp4l2t41ti4m6hi8fb4nto1f8ub23.apps.googleusercontent.com",
+              "client_id": "393635588742-4svn9k7hpmegckknl3jg50apthlfdbcm.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ImmarAppUsage.iml" filepath="$PROJECT_DIR$/.idea/modules/ImmarAppUsage.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ImmarAppUsage.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ImmarAppUsage.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/appusagemonitor/ImmarAppUsage.appusagemonitor.iml" filepath="$PROJECT_DIR$/.idea/modules/appusagemonitor/ImmarAppUsage.appusagemonitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ImmarAppUsage.iml" filepath="$PROJECT_DIR$/.idea/modules/ImmarAppUsage.iml" group="ImmarAppUsage" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="ImmarAppUsage/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/appusagemonitor/appusagemonitor.iml" filepath="$PROJECT_DIR$/.idea/modules/appusagemonitor/appusagemonitor.iml" group="ImmarAppUsage/appusagemonitor" />
     </modules>
   </component>
 </project>
