@@ -40,12 +40,12 @@
         "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.2.0.aar\\aaf6f9dd8d56a4414fcd9f267dae6c64\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.2.0.aar\\aaf6f9dd8d56a4414fcd9f267dae6c64\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.2.0.aar\\aaf6f9dd8d56a4414fcd9f267dae6c64\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.2.0.aar\\aaf6f9dd8d56a4414fcd9f267dae6c64\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -80,12 +80,12 @@
         "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\material-1.1.0.aar\\0aed951b17d051846be74bd60300ff15\\res\\drawable\\mtrl_popupmenu_background.xml"
     },
     {
-        "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.2.0.aar\\aaf6f9dd8d56a4414fcd9f267dae6c64\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view.xml.flat",
         "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.2.0.aar\\aaf6f9dd8d56a4414fcd9f267dae6c64\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.2.0.aar\\aaf6f9dd8d56a4414fcd9f267dae6c64\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -100,28 +100,28 @@
         "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\material-1.1.0.aar\\0aed951b17d051846be74bd60300ff15\\res\\layout-land\\mtrl_picker_header_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.1.0.aar\\f9d73df4da398fdf147eea055a2c7a79\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.2.0.aar\\aaf6f9dd8d56a4414fcd9f267dae6c64\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.2.0.aar\\aaf6f9dd8d56a4414fcd9f267dae6c64\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.2.0.aar\\aaf6f9dd8d56a4414fcd9f267dae6c64\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-17.1.0.aar\\f9d73df4da398fdf147eea055a2c7a79\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
-        "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.2.0.aar\\aaf6f9dd8d56a4414fcd9f267dae6c64\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility.png.flat",
+        "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\material-1.1.0.aar\\0aed951b17d051846be74bd60300ff15\\res\\drawable-mdpi-v4\\design_ic_visibility.png"
     },
     {
         "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.2.0.aar\\aaf6f9dd8d56a4414fcd9f267dae6c64\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility.png.flat",
-        "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\material-1.1.0.aar\\0aed951b17d051846be74bd60300ff15\\res\\drawable-mdpi-v4\\design_ic_visibility.png"
+        "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.2.0.aar\\aaf6f9dd8d56a4414fcd9f267dae6c64\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -144,36 +144,36 @@
         "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\material-1.1.0.aar\\0aed951b17d051846be74bd60300ff15\\res\\layout\\mtrl_picker_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.2.0.aar\\aaf6f9dd8d56a4414fcd9f267dae6c64\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_dropdown_item_icons_2line.xml.flat",
         "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.2.0.aar\\aaf6f9dd8d56a4414fcd9f267dae6c64\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.2.0.aar\\aaf6f9dd8d56a4414fcd9f267dae6c64\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.3.1.aar\\3daba9fd78ba5da57c5d31f4db6eeb9f\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.2.0.aar\\aaf6f9dd8d56a4414fcd9f267dae6c64\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_header_dialog.xml.flat",
         "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\material-1.1.0.aar\\0aed951b17d051846be74bd60300ff15\\res\\layout\\mtrl_picker_header_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.2.0.aar\\aaf6f9dd8d56a4414fcd9f267dae6c64\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
         "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.3.1.aar\\3daba9fd78ba5da57c5d31f4db6eeb9f\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
-        "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.3.1.aar\\3daba9fd78ba5da57c5d31f4db6eeb9f\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
-    },
-    {
         "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.2.0.aar\\aaf6f9dd8d56a4414fcd9f267dae6c64\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\thinkpad\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.3.1.aar\\3daba9fd78ba5da57c5d31f4db6eeb9f\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "C:\\Users\\thinkpad\\AndroidStudioProjects\\ImmarAppUsage\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_light.xml.flat",

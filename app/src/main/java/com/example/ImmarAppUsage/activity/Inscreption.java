@@ -48,9 +48,6 @@ public class Inscreption extends AppCompatActivity {
         setContentView(R.layout.activity_inscreption);
 
         firebaseAuth= FirebaseAuth.getInstance();
-
-
-
         nom=findViewById(R.id.nom);
         num=findViewById(R.id.num);
         email=findViewById(R.id.email);
@@ -233,8 +230,10 @@ public class Inscreption extends AppCompatActivity {
                     userDataMap.put("wilaya",lawilaya);
                     userDataMap.put("date",date);
                     userDataMap.put("genre",genre);
+                    userDataMap.put("coeif","1");
 
-                    rootref.child("BDD").child(firebaseAuth.getCurrentUser().getUid()).updateChildren(userDataMap).addOnCompleteListener(new OnCompleteListener<Void>() {
+
+                rootref.child("BDD").child(firebaseAuth.getCurrentUser().getUid()).updateChildren(userDataMap).addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
                             Toast.makeText(Inscreption.this,"Votre inscription a été terminée avec succés",Toast.LENGTH_SHORT).show();
