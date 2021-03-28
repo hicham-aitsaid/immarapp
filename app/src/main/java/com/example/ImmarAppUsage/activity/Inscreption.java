@@ -184,7 +184,6 @@ public class Inscreption extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"Entrer votre wilaya",Toast.LENGTH_SHORT).show();
                 }else {
                     userAuthentification(mail,pswrd);
-
                 }
 
             }
