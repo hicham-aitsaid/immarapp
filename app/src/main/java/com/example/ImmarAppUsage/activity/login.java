@@ -80,6 +80,7 @@ public class login extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
                             Intent intent=new Intent(getApplicationContext(),MainActivity.class);
                             startActivity(intent);
+                            finish();
                         } else {
                             // If sign in fails, display a message to the user.
                             Toast.makeText(login.this, "Authentication échoué.",

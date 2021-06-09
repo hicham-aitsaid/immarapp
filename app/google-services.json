@@ -8,6 +8,35 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:314094333891:android:2016d4a83db8a159dd9776",
+        "android_client_info": {
+          "package_name": "com.ali.immaradmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314094333891-im6jgip24g4fsf8dulbbcuatgroh7s3m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFRA16pO8_iMo9bVA44mOBV-weYSwezjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314094333891-im6jgip24g4fsf8dulbbcuatgroh7s3m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:314094333891:android:620b69f63558ac29dd9776",
         "android_client_info": {
           "package_name": "com.example.ImmarAppUsage"

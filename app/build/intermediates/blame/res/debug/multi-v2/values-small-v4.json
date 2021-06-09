@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
+            "outputFile": "/Users/hichamait-said/ImmarAppUsage/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
             "map": [
                 {
                     "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/material-1.1.0.aar/89892746a69c49712e7745e517c3f753/res/values-small-v4/values-small-v4.xml",

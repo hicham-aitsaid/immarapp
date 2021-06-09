@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml",
+            "outputFile": "/Users/hichamait-said/ImmarAppUsage/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml",
             "map": [
                 {
                     "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/c859f28048a8cadd2e96837acfbde1fe/res/values-in/values.xml",

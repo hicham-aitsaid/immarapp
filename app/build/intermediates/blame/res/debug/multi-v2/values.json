@@ -1,23 +1,44 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/hichamait-said/ImmarAppUsage/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/res/values/colors.xml",
+                    "source": "/Users/hichamait-said/ImmarAppUsage/app/src/main/res/values/font_certs.xml",
                     "from": {
-                        "startLines": "6,5,4,2,3,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "238,199,153,55,102,278,317",
-                        "endColumns": "39,38,45,46,50,38,38",
-                        "endOffsets": "273,233,194,97,148,312,351"
+                        "startLines": "2,6,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,257,1982",
+                        "endLines": "5,10,15",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "252,1977,3567"
                     },
                     "to": {
-                        "startLines": "414,415,428,429,430,482,505",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "22326,22366,23295,23341,23388,27079,28490",
-                        "endColumns": "39,38,45,46,50,38,38",
-                        "endOffsets": "22361,22400,23336,23383,23434,27113,28524"
+                        "startLines": "9,13,18",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "355,557,2282",
+                        "endLines": "12,17,22",
+                        "endColumns": "12,19,19",
+                        "endOffsets": "552,2277,3867"
+                    }
+                },
+                {
+                    "source": "/Users/hichamait-said/ImmarAppUsage/app/src/main/res/values/preloaded_fonts.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "153"
+                    },
+                    "to": {
+                        "startLines": "29",
+                        "startColumns": "4",
+                        "startOffsets": "4029",
+                        "endLines": "31",
+                        "endColumns": "12",
+                        "endOffsets": "4127"
                     }
                 },
                 {
@@ -59,24 +80,7 @@
                     }
                 },
                 {
-                    "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/03f11e538ff230dfa03f9dc3c2942222/res/values/values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "57",
-                        "endOffsets": "108"
-                    },
-                    "to": {
-                        "startLines": "3723",
-                        "startColumns": "4",
-                        "startOffsets": "228716",
-                        "endColumns": "57",
-                        "endOffsets": "228769"
-                    }
-                },
-                {
-                    "source": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/res/values/strings.xml",
+                    "source": "/Users/hichamait-said/ImmarAppUsage/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "18,3,10,1,15,14,16",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -95,20 +99,37 @@
                     }
                 },
                 {
-                    "source": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/build/generated/res/google-services/debug/values/values.xml",
+                    "source": "/Users/hichamait-said/ImmarAppUsage/app/src/main/res/values/colors.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,318,400,504,613,733,828",
-                        "endColumns": "143,118,81,103,108,119,94,71",
-                        "endOffsets": "194,313,395,499,608,728,823,895"
+                        "startLines": "6,5,4,2,3,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "238,199,153,55,102,278,317",
+                        "endColumns": "39,38,45,46,50,38,38",
+                        "endOffsets": "273,233,194,97,148,312,351"
                     },
                     "to": {
-                        "startLines": "3844,3849,3850,3851,3852,3853,3854,3898",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "237390,238002,238121,238203,238307,238416,238536,246018",
-                        "endColumns": "143,118,81,103,108,119,94,71",
-                        "endOffsets": "237529,238116,238198,238302,238411,238531,238626,246085"
+                        "startLines": "414,415,428,429,430,482,505",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "22326,22366,23295,23341,23388,27079,28490",
+                        "endColumns": "39,38,45,46,50,38,38",
+                        "endOffsets": "22361,22400,23336,23383,23434,27113,28524"
+                    }
+                },
+                {
+                    "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-glide-4.9.0.aar/03f11e538ff230dfa03f9dc3c2942222/res/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    },
+                    "to": {
+                        "startLines": "3723",
+                        "startColumns": "4",
+                        "startOffsets": "228716",
+                        "endColumns": "57",
+                        "endOffsets": "228769"
                     }
                 },
                 {
@@ -148,44 +169,6 @@
                     }
                 },
                 {
-                    "source": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "366"
-                    },
-                    "to": {
-                        "startLines": "3915",
-                        "startColumns": "4",
-                        "startOffsets": "247265",
-                        "endLines": "3920",
-                        "endColumns": "12",
-                        "endOffsets": "247577"
-                    }
-                },
-                {
-                    "source": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/res/values/font_certs.xml",
-                    "from": {
-                        "startLines": "2,6,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,257,1982",
-                        "endLines": "5,10,15",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "252,1977,3567"
-                    },
-                    "to": {
-                        "startLines": "9,13,18",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "355,557,2282",
-                        "endLines": "12,17,22",
-                        "endColumns": "12,19,19",
-                        "endOffsets": "552,2277,3867"
-                    }
-                },
-                {
                     "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/c2aa61f2338b52cffa1b5129c0cba723/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,35,36,37,38,45,47,50",
@@ -221,25 +204,6 @@
                         "endLines": "681,688,699,2795,2800",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "39142,39527,40124,172314,172584"
-                    }
-                },
-                {
-                    "source": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/res/values/preloaded_fonts.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "153"
-                    },
-                    "to": {
-                        "startLines": "29",
-                        "startColumns": "4",
-                        "startOffsets": "4029",
-                        "endLines": "31",
-                        "endColumns": "12",
-                        "endOffsets": "4127"
                     }
                 },
                 {
@@ -352,6 +316,42 @@
                         "endLines": "329,2631,3495,3496,3497,3505,3506,3507,3725",
                         "endColumns": "55,24,58,47,55,74,75,71,65",
                         "endOffsets": "17946,163987,213961,214009,214065,214751,214827,214899,228869"
+                    }
+                },
+                {
+                    "source": "/Users/hichamait-said/ImmarAppUsage/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "366"
+                    },
+                    "to": {
+                        "startLines": "3915",
+                        "startColumns": "4",
+                        "startOffsets": "247265",
+                        "endLines": "3920",
+                        "endColumns": "12",
+                        "endOffsets": "247577"
+                    }
+                },
+                {
+                    "source": "/Users/hichamait-said/ImmarAppUsage/app/build/generated/res/google-services/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,318,400,504,613,733,828",
+                        "endColumns": "143,118,81,103,108,119,94,71",
+                        "endOffsets": "194,313,395,499,608,728,823,895"
+                    },
+                    "to": {
+                        "startLines": "3844,3849,3850,3851,3852,3853,3854,3898",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "237390,238002,238121,238203,238307,238416,238536,246018",
+                        "endColumns": "143,118,81,103,108,119,94,71",
+                        "endOffsets": "237529,238116,238198,238302,238411,238531,238626,246085"
                     }
                 }
             ]

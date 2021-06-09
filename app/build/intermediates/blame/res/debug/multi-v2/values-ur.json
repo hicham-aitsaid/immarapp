@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml",
+            "outputFile": "/Users/hichamait-said/ImmarAppUsage/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml",
             "map": [
                 {
                     "source": "/Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/play-services-base-17.1.0.aar/466cf08ad233bb8522c95391b55229d3/res/values-ur/values.xml",

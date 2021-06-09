@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-53:12
-INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-53:12
-INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-53:12
-INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-53:12
-MERGED from [:appusagemonitor] /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-17:12
+ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-53:12
+MERGED from [:appusagemonitor] /Users/hichamait-said/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.android.material:material:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/material-1.1.0.aar/89892746a69c49712e7745e517c3f753/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/constraintlayout-2.0.4.aar/845b11b91ef5ee08ca27d6283a4239dc/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/appcompat-1.2.0.aar/23ae57929cb4fc3c4cde2c438d825f81/AndroidManifest.xml:17:1-24:12
@@ -46,35 +46,35 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hichamait-said/.
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/b54e3a09ddac767046694a6701fc3190/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/d8a57885e373ed28fa6b6b1996d374f7/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/9e7a4b24eb85c949cd87b1b15887fb59/AndroidManifest.xml:2:1-11:12
-INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-53:12
-INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-53:12
-INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-53:12
+INJECTED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-53:12
 	package
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:4:5-40
-		INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:4:5-40
+		INJECTED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-53:12
-		INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-53:12
+		INJECTED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-53:12
-		INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:1-53:12
+		INJECTED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.PACKAGE_USAGE_STATS
-ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:6:5-8:47
+ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:6:5-8:47
 	tools:ignore
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:8:9-44
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:8:9-44
 	android:name
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:7:9-62
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:7:9-62
 application
-ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:10:5-51:19
-MERGED from [:appusagemonitor] /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-15:19
-MERGED from [:appusagemonitor] /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-15:19
+ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:10:5-51:19
+MERGED from [:appusagemonitor] /Users/hichamait-said/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-15:19
+MERGED from [:appusagemonitor] /Users/hichamait-said/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-15:19
 MERGED from [com.google.android.material:material:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/material-1.1.0.aar/89892746a69c49712e7745e517c3f753/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/material-1.1.0.aar/89892746a69c49712e7745e517c3f753/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/constraintlayout-2.0.4.aar/845b11b91ef5ee08ca27d6283a4239dc/AndroidManifest.xml:9:5-20
@@ -106,85 +106,85 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/hichamait-said/.
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/core-1.3.1.aar/9b9cbd06581bfc8cdd24531aa7abce7d/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:13:9-41
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:13:9-41
 	tools:ignore
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:17:9-74
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:17:9-74
 	android:roundIcon
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:14:9-54
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:12:9-43
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:16:9-40
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:16:9-40
 activity#com.example.ImmarAppUsage.activity.Inscreption
-ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:19:9-58
+ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:19:9-58
 	android:name
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:19:19-55
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:19:19-55
 activity#com.example.ImmarAppUsage.activity.Acceuil
-ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:20:9-54
+ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:20:9-54
 	android:name
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:20:19-51
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:20:19-51
 activity#com.example.ImmarAppUsage.activity.login
-ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:21:9-52
+ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:21:9-52
 	android:name
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:21:19-49
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:21:19-49
 receiver#com.example.ImmarAppUsage.Restarter
-ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:23:9-30:20
+ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:23:9-30:20
 	android:enabled
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:25:13-35
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:25:13-35
 	android:exported
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:26:13-36
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:26:13-36
 	android:name
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:24:13-38
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:24:13-38
 intent-filter#action:name:restartservice
-ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:27:13-29:29
+ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:27:13-29:29
 action#restartservice
-ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:28:17-57
+ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:28:17-57
 	android:name
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:28:25-54
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:28:25-54
 service#com.example.ImmarAppUsage.MyService
-ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:32:9-35:39
+ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:32:9-35:39
 	android:enabled
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:34:13-35
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:34:13-35
 	android:exported
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:35:13-36
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:35:13-36
 	android:name
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:33:13-38
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:33:13-38
 activity#com.example.ImmarAppUsage.activity.MainActivity
-ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:37:9-43:20
+ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:37:9-43:20
 	android:name
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:37:19-56
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:37:19-56
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:38:13-42:29
+ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
-ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:39:17-69
+ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:39:25-66
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:41:17-77
+ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:41:27-74
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:41:27-74
 activity#com.example.ImmarAppUsage.activity.DetailActivity
-ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:44:9-46:52
+ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:44:9-46:52
 	android:screenOrientation
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:46:13-49
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:46:13-49
 	android:name
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:45:13-52
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:45:13-52
 meta-data#preloaded_fonts
-ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:48:9-50:57
+ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:48:9-50:57
 	android:resource
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:50:13-54
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:50:13-54
 	android:name
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml:49:13-43
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml:49:13-43
 uses-sdk
-INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
-INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
-MERGED from [:appusagemonitor] /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-7:41
-MERGED from [:appusagemonitor] /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml
+MERGED from [:appusagemonitor] /Users/hichamait-said/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-7:41
+MERGED from [:appusagemonitor] /Users/hichamait-said/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/material-1.1.0.aar/89892746a69c49712e7745e517c3f753/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.1.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/material-1.1.0.aar/89892746a69c49712e7745e517c3f753/AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/constraintlayout-2.0.4.aar/845b11b91ef5ee08ca27d6283a4239dc/AndroidManifest.xml:5:5-7:41
@@ -267,26 +267,26 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hichamait-said/.gr
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/d8a57885e373ed28fa6b6b1996d374f7/AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/9e7a4b24eb85c949cd87b1b15887fb59/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-gifdecoder-4.9.0.aar/9e7a4b24eb85c949cd87b1b15887fb59/AndroidManifest.xml:5:5-7:41
-INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
-INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hichamait-said/ImmarAppUsage/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from [:appusagemonitor] /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:5-75
+ADDED from [:appusagemonitor] /Users/hichamait-said/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:5-75
 	android:name
-		ADDED from [:appusagemonitor] /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:22-72
+		ADDED from [:appusagemonitor] /Users/hichamait-said/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:22-72
 provider#bot.box.appusage.provider.AppUsageProvider
-ADDED from [:appusagemonitor] /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:9-14:71
+ADDED from [:appusagemonitor] /Users/hichamait-said/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:9-14:71
 	android:authorities
-		ADDED from [:appusagemonitor] /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:13-68
+		ADDED from [:appusagemonitor] /Users/hichamait-said/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:13-68
 	android:name
-		ADDED from [:appusagemonitor] /Users/hichamait-said/AndroidStudioProjects/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:13-70
+		ADDED from [:appusagemonitor] /Users/hichamait-said/ImmarAppUsage/appusagemonitor/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:13-70
 provider#com.squareup.picasso.PicassoProvider
 ADDED from [com.squareup.picasso:picasso:2.71828] /Users/hichamait-said/.gradle/caches/transforms-1/files-1.1/jetified-picasso-2.71828.aar/1a5f4a6acb8dd5719444a7e0c6c67f92/AndroidManifest.xml:8:9-11:40
 	android:authorities

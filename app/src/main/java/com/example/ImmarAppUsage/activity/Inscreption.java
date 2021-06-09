@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.DatePickerDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -15,6 +16,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.ImmarAppUsage.DeviceInfo;
 import com.example.ImmarAppUsage.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -29,6 +31,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -41,6 +44,9 @@ public class Inscreption extends AppCompatActivity {
     private String[] listeitems;
     String lenom,lenum,mail,pswrd,date,genre,leniveau,lacategorie,lawilaya,id;
     String datetwo,selectedDate1;
+    DeviceInfo deviceInfo;
+    FirebaseDatabase database = FirebaseDatabase.getInstance();
+    DatabaseReference myRef = database.getReference("BDD");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -232,12 +238,18 @@ public class Inscreption extends AppCompatActivity {
                     userDataMap.put("coeif","1");
 
 
+
+
                 rootref.child("BDD").child(firebaseAuth.getCurrentUser().getUid()).updateChildren(userDataMap).addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
                             Toast.makeText(Inscreption.this,"Votre inscription a été terminée avec succés",Toast.LENGTH_SHORT).show();
                             Intent intent =new Intent(getApplicationContext(),MainActivity.class);
                             startActivity(intent);
+                            finish();
+                            Date currentTime = Calendar.getInstance().getTime();
+                            String time = currentTime.toString();
+                            myRef.child(firebaseAuth.getCurrentUser().getUid()).child("dateinscription").setValue(time);
                         }
                     });
 
