@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity implements UsageContracts.Vi
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_PHONE_STATE}, 100);
         }
 
-
+        
 
 
     }

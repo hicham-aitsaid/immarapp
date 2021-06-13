@@ -22,6 +22,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.lang.reflect.Method;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
@@ -150,9 +151,11 @@ public class MyService extends Service {
 
         // get time when sent
 
-        Date currentTime = Calendar.getInstance().getTime();
-        String time = currentTime.toString();
-        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Sync").child(time).setValue(time);
+        /*Date currentTime = Calendar.getInstance().getTime();
+        String time = currentTime.toString();*/
+        Date cDate = new Date();
+        String sync = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(cDate);
+        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Sync").child(sync).setValue(sync);
 
         //get operator name
 

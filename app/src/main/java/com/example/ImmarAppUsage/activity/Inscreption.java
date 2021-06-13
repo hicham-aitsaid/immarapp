@@ -212,7 +212,7 @@ public class Inscreption extends AppCompatActivity {
                     adduser(mail,lenom,leniveau,lawilaya,date,genre,lenum,id);
                 } else {
                     // If sign in fails, display a message to the user.
-                    Toast.makeText(Inscreption.this, "Authentication échoué.",
+                    Toast.makeText(Inscreption.this, "Authentification échoué.",
                             Toast.LENGTH_SHORT).show();
                 }
             }
@@ -247,8 +247,8 @@ public class Inscreption extends AppCompatActivity {
                             Intent intent =new Intent(getApplicationContext(),MainActivity.class);
                             startActivity(intent);
                             finish();
-                            Date currentTime = Calendar.getInstance().getTime();
-                            String time = currentTime.toString();
+                            Date cDate = new Date();
+                            String time = new SimpleDateFormat("yyyy-MM-dd").format(cDate);
                             myRef.child(firebaseAuth.getCurrentUser().getUid()).child("dateinscription").setValue(time);
                         }
                     });
