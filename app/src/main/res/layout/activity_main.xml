@@ -7,7 +7,6 @@
     tools:context=".activity.MainActivity">
 
 
-
     <Spinner
         android:background="@drawable/back_spinner"
         android:spinnerMode="dropdown"

@@ -25,8 +25,15 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.ImmarAppUsage.activity.Inscreption" />
-        <activity android:name="com.example.ImmarAppUsage.activity.Acceuil" />
-        <activity android:name="com.example.ImmarAppUsage.activity.login" />
+        <activity android:name="com.example.ImmarAppUsage.activity.Acceuil" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.ImmarAppUsage.activity.login" >
+        </activity>
 
         <receiver
             android:name="com.example.ImmarAppUsage.Restarter"
@@ -43,11 +50,6 @@
             android:exported="true" />
 
         <activity android:name="com.example.ImmarAppUsage.activity.MainActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.example.ImmarAppUsage.activity.DetailActivity"

@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity implements UsageContracts.Vi
         if (user != null) {
             // User is signed in
         } else {
-            Intent intent = new Intent(getApplicationContext(), login.class);
+            Intent intent = new Intent(getApplicationContext(),login.class);
             startActivity(intent);
             finish();
         }
