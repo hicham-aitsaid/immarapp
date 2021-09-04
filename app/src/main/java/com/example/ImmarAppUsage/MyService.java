@@ -77,100 +77,111 @@ public class MyService extends Service {
             id = mFirebaseUser.getUid(); //Do what you need to do with the id
         }
 
-
         DataManager d = new DataManager();
         List<AppData> appsUsedToday = d.getUsedApps(this,TODAY);
         List<AppData> appsUsedYesterday = d.getUsedApps(this,YESTERDAY);
         List<AppData> appsUsedLastWeek = d.getUsedApps(this,WEEK);
         List<AppData> appsUsedLastMonth = d.getUsedApps(this,MONTH);
 
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("BDD");
-        Handler mHandler = new Handler();
 
 
-        // Send data to firebase
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            public void run() {
 
-        // Send Today's Data
-        for (int index = 0; index < appsUsedToday.size(); index++) {
-            String nom = appsUsedToday.get(index).mName;
-            Long temps = appsUsedToday.get(index).mUsageTime;
-            int fois = appsUsedToday.get(index).mCount;
-            Long wifi = appsUsedToday.get(index).mWifi;
-            Long data = appsUsedToday.get(index).mMobile;
-
-            myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("Usage").setValue(temps);
-            myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("foislance").setValue(fois);
-            myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("usagewifi").setValue(wifi);
-            myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("usagedata").setValue(data);
-        }
-
-        // Send Yesterday's Data
-        for (int index = 0; index < appsUsedYesterday.size(); index++) {
-            String nom = appsUsedYesterday.get(index).mName;
-            Long temps = appsUsedYesterday.get(index).mUsageTime;
-            int fois = appsUsedYesterday.get(index).mCount;
-            Long wifi = appsUsedYesterday.get(index).mWifi;
-            Long data = appsUsedYesterday.get(index).mMobile;
-
-            myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("Usage").setValue(temps);
-            myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("foislance").setValue(fois);
-            myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("usagewifi").setValue(wifi);
-            myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("usagedata").setValue(data);
-        }
-
-        // Send Last Week's Data
-        for (int index = 0; index < appsUsedLastWeek.size(); index++) {
-            String nom = appsUsedLastWeek.get(index).mName;
-            Long temps = appsUsedLastWeek.get(index).mUsageTime;
-            int fois = appsUsedLastWeek.get(index).mCount;
-            Long wifi = appsUsedLastWeek.get(index).mWifi;
-            Long data = appsUsedLastWeek.get(index).mMobile;
-
-            myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("Usage").setValue(temps);
-            myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("foislance").setValue(fois);
-            myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("usagewifi").setValue(wifi);
-            myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("usagedata").setValue(data);
-        }
-
-        // Send Last Month's Data
-        for (int index = 0; index < appsUsedLastMonth.size(); index++) {
-            String nom = appsUsedLastMonth.get(index).mName;
-            Long temps = appsUsedLastMonth.get(index).mUsageTime;
-            int fois = appsUsedLastMonth.get(index).mCount;
-            Long wifi = appsUsedLastMonth.get(index).mWifi;
-            Long data = appsUsedLastMonth.get(index).mMobile;
-
-            myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("Usage").setValue(temps);
-            myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("foislance").setValue(fois);
-            myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("usagewifi").setValue(wifi);
-            myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("usagedata").setValue(data);
-
-        }
+                FirebaseDatabase database = FirebaseDatabase.getInstance();
+                DatabaseReference myRef = database.getReference("BDD");
+                Handler mHandler = new Handler();
 
 
-        // get time when sent
+                // Send data to firebase
 
-        /*Date currentTime = Calendar.getInstance().getTime();
-        String time = currentTime.toString();*/
-        Date cDate = new Date();
-        String sync = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(cDate);
-        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Sync").child(sync).setValue(sync);
+                // Send Today's Data
+                for (int index = 0; index < appsUsedToday.size(); index++) {
+                    String nom = appsUsedToday.get(index).mName;
+                    Long temps = appsUsedToday.get(index).mUsageTime;
+                    int fois = appsUsedToday.get(index).mCount;
+                    Long wifi = appsUsedToday.get(index).mWifi;
+                    Long data = appsUsedToday.get(index).mMobile;
 
-        //get operator name
+                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("Usage").setValue(temps);
+                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("foislance").setValue(fois);
+                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("usagewifi").setValue(wifi);
+                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("usagedata").setValue(data);
+                }
 
-        TelephonyManager tel;
-        tel = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
-        String operateur = tel.getNetworkOperatorName();
-        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("operateur").setValue(operateur);
+                // Send Yesterday's Data
+                for (int index = 0; index < appsUsedYesterday.size(); index++) {
+                    String nom = appsUsedYesterday.get(index).mName;
+                    Long temps = appsUsedYesterday.get(index).mUsageTime;
+                    int fois = appsUsedYesterday.get(index).mCount;
+                    Long wifi = appsUsedYesterday.get(index).mWifi;
+                    Long data = appsUsedYesterday.get(index).mMobile;
+
+                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("Usage").setValue(temps);
+                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("foislance").setValue(fois);
+                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("usagewifi").setValue(wifi);
+                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("usagedata").setValue(data);
+                }
+
+                // Send Last Week's Data
+                for (int index = 0; index < appsUsedLastWeek.size(); index++) {
+                    String nom = appsUsedLastWeek.get(index).mName;
+                    Long temps = appsUsedLastWeek.get(index).mUsageTime;
+                    int fois = appsUsedLastWeek.get(index).mCount;
+                    Long wifi = appsUsedLastWeek.get(index).mWifi;
+                    Long data = appsUsedLastWeek.get(index).mMobile;
+
+                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("Usage").setValue(temps);
+                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("foislance").setValue(fois);
+                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("usagewifi").setValue(wifi);
+                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("usagedata").setValue(data);
+                }
+
+                // Send Last Month's Data
+                for (int index = 0; index < appsUsedLastMonth.size(); index++) {
+                    String nom = appsUsedLastMonth.get(index).mName;
+                    Long temps = appsUsedLastMonth.get(index).mUsageTime;
+                    int fois = appsUsedLastMonth.get(index).mCount;
+                    Long wifi = appsUsedLastMonth.get(index).mWifi;
+                    Long data = appsUsedLastMonth.get(index).mMobile;
+
+                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("Usage").setValue(temps);
+                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("foislance").setValue(fois);
+                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("usagewifi").setValue(wifi);
+                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("usagedata").setValue(data);
+
+                }
 
 
-        // get device name
+                // get time when sent
 
-        String manufacturer = Build.MANUFACTURER;
-        String model = Build.MODEL;
-        String devicename = manufacturer + " " + model;
-        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("appareil").setValue(devicename);
+                Date cDate = new Date();
+                String sync = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(cDate);
+                String sync2 = new SimpleDateFormat("yyyy-MM-dd").format(cDate);
+                myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Sync").child(sync).setValue(sync);
+                myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastSync").setValue(sync2);
+
+                //get operator name
+
+                TelephonyManager tel;
+                tel = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
+                String operateur = tel.getNetworkOperatorName();
+                myRef.child(firebaseAuth.getCurrentUser().getUid()).child("operateur").setValue(operateur);
+
+
+                // get device name
+
+                String manufacturer = Build.MANUFACTURER;
+                String model = Build.MODEL;
+                String devicename = manufacturer + " " + model;
+                myRef.child(firebaseAuth.getCurrentUser().getUid()).child("appareil").setValue(devicename);
+
+                handler.postDelayed(this, 60000); //now is every 2 minutes
+            }
+        }, 60000); //Every 120000 ms (2 minutes)
+
+
 
 
 
