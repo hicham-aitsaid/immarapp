@@ -16,8 +16,8 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning,LockedOrientationActivity">
 
-        <activity android:name=".activity.Inscreption" />
-        <activity android:name=".activity.Acceuil" >
+        <activity android:name=".activity.Acceuil" />
+        <activity android:name=".activity.Inscreption" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

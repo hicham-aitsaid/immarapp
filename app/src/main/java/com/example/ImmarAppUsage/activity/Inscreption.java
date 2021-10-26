@@ -210,6 +210,8 @@ public class Inscreption extends AppCompatActivity {
                     // Sign in success, update UI with the signed-in user's information
                     id=firebaseAuth.getCurrentUser().getUid();
                     adduser(mail,lenom,leniveau,lawilaya,date,genre,lenum,id);
+                    Intent intent =new Intent(getApplicationContext(),Acceuil.class);
+                    startActivity(intent);
                 } else {
                     // If sign in fails, display a message to the user.
                     Toast.makeText(Inscreption.this, "Authentification échoué.",
