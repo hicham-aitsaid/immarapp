@@ -95,78 +95,105 @@ public class MyService extends Service {
 
 
                 // Send data to firebase
+                try {
 
-                // Send Today's Data
-                for (int index = 0; index < appsUsedToday.size(); index++) {
-                    String nom = appsUsedToday.get(index).mName;
-                    Long temps = appsUsedToday.get(index).mUsageTime;
-                    int fois = appsUsedToday.get(index).mCount;
-                    Long wifi = appsUsedToday.get(index).mWifi;
-                    Long data = appsUsedToday.get(index).mMobile;
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("Usage").setValue(0);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("foislance").setValue(0);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("usagewifi").setValue(0);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("usagedata").setValue(0);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("Usage").setValue(temps);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("foislance").setValue(fois);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("usagewifi").setValue(wifi);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("usagedata").setValue(data);
+                    // Send Today's Data
+                    for (int index = 0; index < appsUsedToday.size(); index++) {
+                        String nom = appsUsedToday.get(index).mName;
+                        Long temps = appsUsedToday.get(index).mUsageTime;
+                        int fois = appsUsedToday.get(index).mCount;
+                        Long wifi = appsUsedToday.get(index).mWifi;
+                        Long data = appsUsedToday.get(index).mMobile;
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("Usage").setValue(0);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("foislance").setValue(0);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("usagewifi").setValue(0);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("usagedata").setValue(0);
+                        Thread.sleep(1000);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("Usage").setValue(temps);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("foislance").setValue(fois);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("usagewifi").setValue(wifi);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Today").child(nom).child("usagedata").setValue(data);
+                    }
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
 
-                // Send Yesterday's Data
-                for (int index = 0; index < appsUsedYesterday.size(); index++) {
-                    String nom = appsUsedYesterday.get(index).mName;
-                    Long temps = appsUsedYesterday.get(index).mUsageTime;
-                    int fois = appsUsedYesterday.get(index).mCount;
-                    Long wifi = appsUsedYesterday.get(index).mWifi;
-                    Long data = appsUsedYesterday.get(index).mMobile;
 
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("Usage").setValue(0);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("foislance").setValue(0);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("usagewifi").setValue(0);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("usagedata").setValue(0);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("Usage").setValue(temps);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("foislance").setValue(fois);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("usagewifi").setValue(wifi);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("usagedata").setValue(data);
+                try {
+
+                    // Send Yesterday's Data
+                    for (int index = 0; index < appsUsedYesterday.size(); index++) {
+                        String nom = appsUsedYesterday.get(index).mName;
+                        Long temps = appsUsedYesterday.get(index).mUsageTime;
+                        int fois = appsUsedYesterday.get(index).mCount;
+                        Long wifi = appsUsedYesterday.get(index).mWifi;
+                        Long data = appsUsedYesterday.get(index).mMobile;
+
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("Usage").setValue(0);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("foislance").setValue(0);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("usagewifi").setValue(0);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("usagedata").setValue(0);
+                        Thread.sleep(1000);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("Usage").setValue(temps);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("foislance").setValue(fois);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("usagewifi").setValue(wifi);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("Yesterday").child(nom).child("usagedata").setValue(data);
+                    }
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
 
-                // Send Last Week's Data
-                for (int index = 0; index < appsUsedLastWeek.size(); index++) {
-                    String nom = appsUsedLastWeek.get(index).mName;
-                    Long temps = appsUsedLastWeek.get(index).mUsageTime;
-                    int fois = appsUsedLastWeek.get(index).mCount;
-                    Long wifi = appsUsedLastWeek.get(index).mWifi;
-                    Long data = appsUsedLastWeek.get(index).mMobile;
 
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("Usage").setValue(0);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("foislance").setValue(0);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("usagewifi").setValue(0);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("usagedata").setValue(0);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("Usage").setValue(temps);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("foislance").setValue(fois);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("usagewifi").setValue(wifi);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("usagedata").setValue(data);
+                try {
+
+                    // Send Last Week's Data
+                    for (int index = 0; index < appsUsedLastWeek.size(); index++) {
+                        String nom = appsUsedLastWeek.get(index).mName;
+                        Long temps = appsUsedLastWeek.get(index).mUsageTime;
+                        int fois = appsUsedLastWeek.get(index).mCount;
+                        Long wifi = appsUsedLastWeek.get(index).mWifi;
+                        Long data = appsUsedLastWeek.get(index).mMobile;
+
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("Usage").setValue(0);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("foislance").setValue(0);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("usagewifi").setValue(0);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("usagedata").setValue(0);
+                        Thread.sleep(1000);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("Usage").setValue(temps);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("foislance").setValue(fois);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("usagewifi").setValue(wifi);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastWeek").child(nom).child("usagedata").setValue(data);
+                    }
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
 
-                // Send Last Month's Data
-                for (int index = 0; index < appsUsedLastMonth.size(); index++) {
-                    String nom = appsUsedLastMonth.get(index).mName;
-                    Long temps = appsUsedLastMonth.get(index).mUsageTime;
-                    int fois = appsUsedLastMonth.get(index).mCount;
-                    Long wifi = appsUsedLastMonth.get(index).mWifi;
-                    Long data = appsUsedLastMonth.get(index).mMobile;
 
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("Usage").setValue(0);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("foislance").setValue(0);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("usagewifi").setValue(0);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("usagedata").setValue(0);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("Usage").setValue(temps);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("foislance").setValue(fois);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("usagewifi").setValue(wifi);
-                    myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("usagedata").setValue(data);
+                try {
 
+                    // Send Last Month's Data
+                    for (int index = 0; index < appsUsedLastMonth.size(); index++) {
+                        String nom = appsUsedLastMonth.get(index).mName;
+                        Long temps = appsUsedLastMonth.get(index).mUsageTime;
+                        int fois = appsUsedLastMonth.get(index).mCount;
+                        Long wifi = appsUsedLastMonth.get(index).mWifi;
+                        Long data = appsUsedLastMonth.get(index).mMobile;
+
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("Usage").setValue(0);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("foislance").setValue(0);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("usagewifi").setValue(0);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("usagedata").setValue(0);
+                        Thread.sleep(1000);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("Usage").setValue(temps);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("foislance").setValue(fois);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("usagewifi").setValue(wifi);
+                        myRef.child(firebaseAuth.getCurrentUser().getUid()).child("LastMonth").child(nom).child("usagedata").setValue(data);
+
+                    }
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
+
 
 
                 // get time when sent
@@ -192,9 +219,9 @@ public class MyService extends Service {
                 String devicename = manufacturer + " " + model;
                 myRef.child(firebaseAuth.getCurrentUser().getUid()).child("appareil").setValue(devicename);
 
-                handler.postDelayed(this, 60000); //now is every 2 minutes
+                handler.postDelayed(this, 1000*60*60*24); //now is every 2 minutes
             }
-        }, 60000); //Every 120000 ms (2 minutes)
+        }, 1000*60*60*24); //Every 120000 ms (2 minutes)
 
 
 

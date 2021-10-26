@@ -110,7 +110,7 @@ public class Inscreption extends AppCompatActivity {
         wilaya.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                listeitems=new String[]{"Adrar","Chlef","Laghouat","Oum El Bouaghi","Batna","Béjaïa","Biskra","Béchar","Blida","Bouira","Tamanghasset","Tébessa","Tlemcen","Tiaret","Tizi Ouzou","Jijel","Sétif","Saïda","Skikda","Sidi Bel Abbes","Annaba","Guelma","Constantine","Médéa","Mostaganem","M'Sila","Mascara","Ouargla"," El Bayadh","Illizi","Boumerdès","El Taref","Tindouf","Tissemsilt","El Oued","Khenchela","Souk Ahras","Tipasa","Mila","Aïn Defla","Naama","Aïn Témouchent"};
+                listeitems=new String[]{"Adrar","Chlef","Laghouat","Oum El Bouaghi","Batna","Béjaïa","Biskra","Béchar","Blida","Bouira","Tamanghasset","Tébessa","Tlemcen","Tiaret","Tizi Ouzou","Alger","Djelfa","Jijel","Sétif","Saïda","Skikda","Sidi Bel Abbes","Annaba","Guelma","Constantine","Médéa","Mostaganem","M'Sila","Mascara","Ouargla"," El Bayadh","Illizi","Boumerdès","El Taref","Tindouf","Tissemsilt","El Oued","Khenchela","Souk Ahras","Tipasa","Mila","Aïn Defla","Naama","Aïn Témouchent"};
                 AlertDialog.Builder mbuilder=new AlertDialog.Builder(Inscreption.this);
                 mbuilder.setTitle("Selectionner la wilaya");
                 mbuilder.setSingleChoiceItems(listeitems, -1, new DialogInterface.OnClickListener() {
